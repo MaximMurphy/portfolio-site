@@ -21,11 +21,11 @@ const Scene = (props) => {
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
     ref.current.rotation.set(
-      Math.cos(t / 4) / 8,
-      Math.sin(t / 3) / 4,
+      Math.cos(t / 4) / 16,
+      Math.sin(t / 3) / 8,
       -0.6 + Math.sin(t / 2) / 8
     );
-    ref.current.position.y = (0.5 + Math.cos(t / 2)) / 7;
+    ref.current.position.y = (-50 + Math.cos(t / 2)) / 3.5;
   });
 
   //console.log(obj);
@@ -35,7 +35,7 @@ const Scene = (props) => {
     //bigger screens
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.135} position={(0, 0, 0)} />
+        <primitive object={obj} scale={0.3} position={(0, 0, 0)} />
       </group>
     );
     window.onresize = function () {
@@ -45,7 +45,7 @@ const Scene = (props) => {
     //mobile
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.085} />
+        <primitive object={obj} scale={0.165} />
       </group>
     );
   }

@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
 
       <div className="mb-24 text-sm font-bold tracking-widest text-slate-300">
-        <p>© Maxim Murphy 2023</p>
+        <p>© 2023 Maxim Murphy</p>
       </div>
     </nav>
   );

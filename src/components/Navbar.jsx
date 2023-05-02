@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="z-10 sticky min-w-full top-0 flex flex-row items-center justify-between gap-y-10 p-8 lg:flex-row lg:pt-8 lg:px-24">
       <Link href="/">
         <Image
-          src="/maximMurphyAllCaps.png"
+          src="/maximMurphyAllCapsStars.png"
           alt="maxim logo"
           id="rotateLogo"
           width="800"
