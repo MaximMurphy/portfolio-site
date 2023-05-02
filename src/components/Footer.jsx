@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <nav className="relative z-50 flex flex-col items-center justify-between ">
+    <nav className="flex flex-col items-center justify-between ">
       <div className=" flex flex-col lg:w-full lg:px-48 lg:flex-row">
         <div className=" flex flex-col items-center lg:items-start font-bold text-lg tracking-widest text-blue-950 p-24 lg:gap-4">
           <p className="mb-4 lg:mb-0">PAGES</p>

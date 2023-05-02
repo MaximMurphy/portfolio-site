@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Skills() {
   return (
     <section className="w-full flex flex-col text-center lg:text-start text-softblue-400 text-2xl tracking-wider p-12 py-24 bg-blue-950 gap-12">
       <h1 className="text-slate-300 underline font-bold text-center">Skills</h1>
