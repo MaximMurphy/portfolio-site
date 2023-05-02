@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <main>
-      <div className="min-h-screen w-full flex flex-col content-center text-center text-blue-950 text-3xl font-bold p-12 gap-24">
+      <div className="min-h-screen w-full flex flex-col content-center text-center text-blue-950 text-3xl font-bold tracking-wider p-12 gap-24">
         <break></break>
         <h1> Pretend there is an image here </h1>
       </div>
-      <div className="min-h-screen w-full flex flex-col content-center text-center text-blue-400 text-2xl font-bold tracking-wider p-12 py-36 bg-blue-950 gap-24">
+      <div className="min-h-screen w-full flex flex-col content-center text-center text-softblue-400 text-2xl font-bold tracking-wider p-12 py-36 bg-blue-950 gap-24">
         <h1>Main Content</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
