@@ -5,16 +5,18 @@ export default function Home() {
     <main>
       <section className="min-h-screen w-full flex flex-col content-center text-center font-bold tracking-wider p-4 gap-12">
         <LegoModel />
-        <h1 className="text-4xl text-blue-950"> I&apos;m Maxim</h1>
+        <h1 className="text-4xl text-blue-950"> I&apos;m Maxim, </h1>
         <p className="text-3xl text-slate-200">
           {" "}
-          I&apos;m a full stack web developer and designer.
+          a full stack web developer and designer.
         </p>
         <p className="text-3xl text-slate-200"></p>
       </section>
-      <section className="min-h-screen w-full flex flex-col content-start text-softblue-400 text-2xl tracking-wider p-12 py-36 bg-blue-950 gap-12">
-        <h1 className="text-white underline font-bold text-center">Skills</h1>
-        <div className="flex flex-row  justify-between px-96">
+      <section className="min-h-screen w-full flex flex-col text-center lg:text-start text-softblue-400 text-2xl tracking-wider p-12 py-36 bg-blue-950 gap-12">
+        <h1 className="text-slate-300 underline font-bold text-center">
+          Skills
+        </h1>
+        <div className="flex flex-col justify-between px-12 gap-16 lg:px-96 lg:flex-row">
           <div className="flex flex-col gap-8">
             <h1 className="text-slate-300 font-bold">Front End Technologies</h1>
             <p>ReactJS</p>

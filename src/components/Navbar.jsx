@@ -21,7 +21,7 @@ export default function Navbar() {
           id="rotateLogo"
           width="800"
           height="800"
-          className="invert w-2/5 h-2/5"
+          className="invert w-2/5 h-2/5 lg:w-72 lg:h-72 2xl:w-2/5 xl:h-2/5"
         />
       </Link>
       <h1 className="font-bold text-base tracking-widest hover:text-blue-950">
