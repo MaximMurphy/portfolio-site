@@ -12,22 +12,22 @@ THREE.DefaultLoadingManager.addHandler(/\.dds$/i, new DDSLoader());
 
 const Scene = (props) => {
   const ref = useRef();
-  const materials = useLoader(MTLLoader, "3DModel2/Maxim.mtl");
-  const obj = useLoader(OBJLoader, "3DModel2/Maxim.obj", (loader) => {
+  const materials = useLoader(MTLLoader, "3DModel3/hello.mtl");
+  const obj = useLoader(OBJLoader, "3DModel3/hello.obj", (loader) => {
     materials.preload();
     loader.setMaterials(materials);
   });
-  /*
+
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
     ref.current.rotation.set(
       Math.cos(t / 4) / 8,
       Math.sin(t / 3) / 4,
-      0.15 + Math.sin(t / 2) / 8
+      -0.6 + Math.sin(t / 2) / 8
     );
     ref.current.position.y = (0.5 + Math.cos(t / 2)) / 7;
   });
-*/
+
   //console.log(obj);
 
   // checking for screen size
@@ -35,7 +35,7 @@ const Scene = (props) => {
     //bigger screens
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.09} position={(0, 0, 0)} />
+        <primitive object={obj} scale={0.135} position={(0, 0, 0)} />
       </group>
     );
     window.onresize = function () {
@@ -45,7 +45,7 @@ const Scene = (props) => {
     //mobile
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.035} />
+        <primitive object={obj} scale={0.085} />
       </group>
     );
   }
@@ -53,7 +53,7 @@ const Scene = (props) => {
 
 export default function LegoModel() {
   return (
-    <div className="h-72 w-full border-solid border-2 border-red-400">
+    <div className="h-72 w-full">
       <Canvas
         className="h-full"
         shadows
@@ -61,7 +61,7 @@ export default function LegoModel() {
           position: [10, 20, 0],
         }}
       >
-        <ambientLight color={"white"} intensity={0.8} />
+        <ambientLight color={"white"} intensity={0.9} />
         <pointLight castShadow />
 
         <Suspense fallback={null}>
