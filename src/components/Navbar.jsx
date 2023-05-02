@@ -7,7 +7,7 @@ export default function Navbar() {
       <Link href="/">
         <LegoModel />
       </Link>
-      <h1 className="font-bold">MENU</h1>
+      <h1 className="font-bold hover:text-blue-950">MENU</h1>
     </nav>
   );
 }
