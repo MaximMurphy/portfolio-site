@@ -13,7 +13,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="z-10 sticky min-w-full top-0 flex flex-row items-center justify-between gap-y-10 p-8 lg:flex-row lg:pt-8 lg:px-24">
+    <nav className="z-10 sticky min-w-full top-0 flex flex-row items-start justify-between gap-y-10 p-8 lg:flex-row lg:pt-8 lg:px-16">
       <Link href="/">
         <Image
           src="/maximMurphyAllCapsStars.png"
@@ -21,10 +21,10 @@ export default function Navbar() {
           id="rotateLogo"
           width="800"
           height="800"
-          className="invert w-2/5 h-2/5 lg:w-72 lg:h-72 2xl:w-2/5 xl:h-2/5"
+          className="invert w-2/5 h-2/5 lg:w-64 lg:h-64 2xl:w-2/5 xl:h-2/5"
         />
       </Link>
-      <h1 className="font-bold text-base tracking-widest hover:text-blue-950">
+      <h1 className="font-bold text-base tracking-widest mt-6 lg:mt-12 hover:text-blue-950 hover:drop-shadow-2xl hover:scale-110">
         MENU
       </h1>
     </nav>
