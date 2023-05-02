@@ -18,9 +18,8 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center lg:items-start justify-between w-full font-bold text-lg tracking-widest text-blue-950 px-24 pb-6 gap-6 lg:mt-24 lg:flex-row">
+        <div className="flex flex-col items-center lg:items-start justify-between w-full font-bold text-lg tracking-widest text-blue-950 gap-6 px-24 pb-10 lg:mt-24 lg:flex-row">
           <p>GITHUB</p>
-          <p>INSTAGRAM</p>
           <p>LINKEDIN</p>
           <p>RESUME</p>
         </div>

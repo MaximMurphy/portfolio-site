@@ -1,13 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export default function Navbar() {
-  let didMatch, width, height;
-
   useEffect(() => {
     // checking for screen size
-    didMatch = window.matchMedia("(min-width: 701px)").matches;
 
     window.onscroll = () => {
       let image = document.getElementById("rotateLogo");
@@ -15,27 +12,16 @@ export default function Navbar() {
     };
   }, []);
 
-  // checking for screen size
-  if (didMatch) {
-    //bigger screens
-    width = 400;
-    height = 400;
-  } else {
-    //mobile
-    width = 250;
-    height = 250;
-  }
-
   return (
-    <nav className="z-10 sticky min-w-full top-0 flex flex-col items-center justify-between pt-y-4 gap-y-6 p-8 lg:flex-row lg:pt-8 lg:px-24">
+    <nav className="z-10 sticky min-w-full top-0 flex flex-row items-center justify-between gap-y-10 p-8 lg:flex-row lg:pt-8 lg:px-24">
       <Link href="/">
         <Image
-          src="/maximAllCaps.png"
+          src="/maximMurphyAllCaps.png"
           alt="maxim logo"
-          width={width}
-          height={height}
           id="rotateLogo"
-          className="invert"
+          width="800"
+          height="800"
+          className="invert w-2/5 h-2/5"
         />
       </Link>
       <h1 className="font-bold text-base tracking-widest hover:text-blue-950">
