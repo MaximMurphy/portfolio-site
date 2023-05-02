@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         softblue: {
-          400: "#7caff2",
+          400: "#6ea0e0",
         },
       },
       backgroundImage: {

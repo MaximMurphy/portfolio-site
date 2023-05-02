@@ -17,33 +17,48 @@ const Scene = (props) => {
     materials.preload();
     loader.setMaterials(materials);
   });
-
+  /*
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
     ref.current.rotation.set(
-      Math.cos(t / 2) / 8,
-      Math.sin(t / 1.5) / 4,
-      0.15 + Math.sin(t / 0.8) / 8
+      Math.cos(t / 4) / 8,
+      Math.sin(t / 3) / 4,
+      0.15 + Math.sin(t / 2) / 8
     );
     ref.current.position.y = (0.5 + Math.cos(t / 2)) / 7;
   });
+*/
+  //console.log(obj);
 
-  console.log(obj);
-  return (
-    <group ref={ref}>
-      <primitive object={obj} scale={0.08} position={(0, 0, -2)} />
-    </group>
-  );
+  // checking for screen size
+  if (window.matchMedia("(min-width: 701px)").matches) {
+    //bigger screens
+    return (
+      <group ref={ref}>
+        <primitive object={obj} scale={0.09} position={(0, 0, 0)} />
+      </group>
+    );
+    window.onresize = function () {
+      location.reload();
+    };
+  } else {
+    //mobile
+    return (
+      <group ref={ref}>
+        <primitive object={obj} scale={0.035} />
+      </group>
+    );
+  }
 };
 
 export default function LegoModel() {
   return (
-    <div className="h-36 w-screen lg:w-96">
+    <div className="h-72 w-full border-solid border-2 border-red-400">
       <Canvas
         className="h-full"
         shadows
         camera={{
-          position: [10, 1, 1.2],
+          position: [10, 20, 0],
         }}
       >
         <ambientLight color={"white"} intensity={0.8} />
