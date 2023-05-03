@@ -1,5 +1,6 @@
 import LegoModel from "@/components/LegoModel";
 import Skills from "@/components/Skills";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           {" "}
           a full stack web developer and designer.
         </p>
-        <p className="text-3xl text-slate-200"></p>
+        <h1 className="text-5xl">👨‍💻⚡️🌐</h1>
       </section>
       <Skills />
     </main>

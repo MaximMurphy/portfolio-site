@@ -13,7 +13,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="z-10 sticky min-w-full top-0 flex flex-row items-start justify-between p-8 mb-12 lg:flex-row lg:pt-8 lg:px-16">
+    <nav className="z-10 sticky min-w-full top-0 flex flex-row items-start justify-between p-8 lg:flex-row lg:pt-8 lg:px-16">
       <Link href="/">
         <Image
           src="/maximMurphyAllCapsStars.png"

@@ -4,10 +4,16 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <nav className="flex flex-col items-center justify-between ">
-      <div className=" flex flex-col lg:w-full lg:px-48 lg:flex-row">
-        <div className=" flex flex-col items-center lg:items-start font-bold text-lg tracking-widest text-blue-950 p-24 lg:gap-4">
+      <div className="flex flex-col lg:w-full lg:px-48 lg:flex-row">
+        <div className="flex flex-col items-center lg:items-start font-bold text-lg tracking-widest text-blue-950 p-20 lg:p-12 lg:mt-12 lg:gap-4">
           <p className="mb-4 lg:mb-0">PAGES</p>
           <div className="flex flex-col items-center lg:items-start text-white gap-2">
+            <Link
+              href="/"
+              className="hover:text-orange-200 hover:drop-shadow-2xl hover:scale-110"
+            >
+              HOME
+            </Link>
             <Link
               href="/about"
               className="hover:text-orange-400 hover:drop-shadow-2xl hover:scale-110"
@@ -74,7 +80,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mb-24 text-sm font-bold tracking-widest text-slate-300">
+      <div className=" mb-16 text-sm font-bold tracking-widest text-slate-300">
         <p>© 2023 Maxim Murphy</p>
       </div>
     </nav>

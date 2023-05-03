@@ -28,8 +28,6 @@ const Scene = (props) => {
     ref.current.position.y = (-50 + Math.cos(t / 2)) / 3.5;
   });
 
-  //console.log(obj);
-
   // checking for screen size
   if (window.matchMedia("(min-width: 701px)").matches) {
     //bigger screens
@@ -38,9 +36,6 @@ const Scene = (props) => {
         <primitive object={obj} scale={0.3} position={(0, 0, 0)} />
       </group>
     );
-    window.onresize = function () {
-      location.reload();
-    };
   } else {
     //mobile
     return (
