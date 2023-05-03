@@ -14,12 +14,14 @@ export default function Navbar() {
   }, []);
 
   const handleOpen = () => {
+    menu = document.getElementById("menu");
     console.log("open menu");
     menu.classList.remove("w-0");
     menu.classList.add("w-full");
   };
 
   const handleClose = () => {
+    menu = document.getElementById("menu");
     console.log("close menu");
     menu.classList.remove("w-full");
     menu.classList.add("w-0");
@@ -31,7 +33,7 @@ export default function Navbar() {
         className="z-50 w-0 fixed bg-green-950 min-h-screen flex flex-col items-center overflow-hidden "
         id="menu"
       >
-        <div className="min-w-full top-0 flex justify-center mt-16 lg:mt-28 ml-[50%] lg:ml-[75%] ">
+        <div className="min-w-full top-0 flex justify-center mt-14 lg:mt-20 ml-[68%] lg:ml-[88%] ">
           <button
             className="font-bold tracking-widest hover:text-orange-400 hover:scale-110"
             onClick={handleClose}
@@ -41,22 +43,34 @@ export default function Navbar() {
         </div>
         <ul className="text-4xl font-bold tracking-widest flex flex-col gap-12 mt-32 lg:mt-36">
           <Link href="/">
-            <li className="hover:-translate-y-1 hover:text-orange-200 hover:drop-shadow-2xl">
+            <li
+              className="hover:-translate-y-1 hover:text-orange-200 hover:drop-shadow-2xl"
+              onClick={handleClose}
+            >
               HOME
             </li>
           </Link>
           <Link href="/about">
-            <li className="hover:-translate-y-1 hover:text-orange-400 hover:drop-shadow-2xl">
+            <li
+              className="hover:-translate-y-1 hover:text-orange-400 hover:drop-shadow-2xl"
+              onClick={handleClose}
+            >
               ABOUT
             </li>
           </Link>
           <Link href="/projects">
-            <li className="hover:-translate-y-1 hover:text-orange-600 hover:drop-shadow-2xl">
+            <li
+              className="hover:-translate-y-1 hover:text-orange-600 hover:drop-shadow-2xl"
+              onClick={handleClose}
+            >
               PROJECTS
             </li>
           </Link>
           <Link href="/contact">
-            <li className="hover:-translate-y-1 hover:text-orange-800 hover:drop-shadow-2xl">
+            <li
+              className="hover:-translate-y-1 hover:text-orange-800 hover:drop-shadow-2xl"
+              onClick={handleClose}
+            >
               CONTACT
             </li>
           </Link>
