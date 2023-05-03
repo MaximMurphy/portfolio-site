@@ -5,6 +5,7 @@ export default function Skills() {
       <div className="flex flex-col justify-between px-12 gap-16 lg:px-80 lg:flex-row">
         <div className="flex flex-col gap-8">
           <h1 className="text-slate-300 font-bold">Front End Technologies</h1>
+          <p>Javascript</p>
           <p>ReactJS</p>
           <p>NextJS</p>
           <p>HTML</p>

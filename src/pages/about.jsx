@@ -5,12 +5,12 @@ export default function about() {
   return (
     <>
       <section className="bg-gradient-to-b from-softblue-400 to-blue-300 w-full flex flex-col items-center text-white text-2xl font-bold tracking-wider px-12 lg:px-48 pb-24 pt-8 lg:pt-0 gap-12">
+        <Image src="/earl.png" alt="photo of a duck" width={200} height={200} />
         <h1>About Me</h1>
         <p className="text-center">
           I graduated from The Ohio State University with a degree in Computer
           Science and Engineering in December 2022.
         </p>
-        <Image src="/earl.png" alt="photo of a duck" width={200} height={200} />
         <p className="text-blue-950">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
