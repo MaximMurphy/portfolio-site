@@ -52,6 +52,10 @@ export default function Skills() {
         <div className="flex flex-col gap-8">
           <h1 className="text-slate-300 font-bold">Other</h1>
           <div className="flex flex-row gap-4 justify-center lg:justify-normal">
+            <p>Git</p>
+            <Icon icon="simple-icons:git" />
+          </div>
+          <div className="flex flex-row gap-4 justify-center lg:justify-normal">
             <p>Typescript</p>
             <Icon icon="simple-icons:typescript" />
           </div>

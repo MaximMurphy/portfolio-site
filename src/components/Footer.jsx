@@ -6,7 +6,6 @@ export default function Footer() {
     <nav className="flex flex-col items-center justify-between ">
       <div className="flex flex-col lg:w-full lg:px-48 lg:flex-row">
         <div className="flex flex-col items-center lg:items-start font-bold text-lg tracking-widest text-blue-950 px-20 pt-20 pb-12 lg:p-12 lg:mt-12 lg:gap-4">
-          <p className="mb-6 lg:mb-0">PAGES</p>
           <div className="flex flex-col items-center lg:items-start text-white gap-4">
             <Link
               href="/"
