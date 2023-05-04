@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        shift1: {
+          "0%, 100%": { transform: "translateX(-1.5%)" },
+          "50%": { transform: "translateX(1.5%)" },
+        },
+        shift2: {
+          "0%, 100%": { transform: "translateX(1.5%)" },
+          "50%": { transform: "translateX(-1.5%)" },
+        },
+      },
       colors: {
         softblue: {
           400: "#6ea0e0",
@@ -16,6 +26,10 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      animation: {
+        shift1: "shift1 3s ease-in-out infinite",
+        shift2: "shift2 3s ease-in-out infinite",
       },
     },
   },

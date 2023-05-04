@@ -7,12 +7,12 @@ import Link from "next/link";
 
 export default function projects() {
   return (
-    <div className="bg-gradient-to-b from-softblue-400 to-teal-900/50 w-full flex flex-col items-center text-white font-bold tracking-wider px-12 lpb-24 pt-8 lg:pt-0 gap-4 lg:gap-12">
+    <div className="bg-gradient-to-b from-softblue-400 to-teal-900/50 w-full flex flex-col items-center text-white font-bold tracking-wider px-8 pb-24 pt-8 lg:pt-0 gap-4 lg:gap-12">
       <h1 className="underline decoration-2 underline-offset-4 mb-12 text-3xl">
         Projects
       </h1>
-      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-24 gap-8">
-        <div className="w-fit h-full bg-white/20 p-2 rounded-xl flex items-center justify-center">
+      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
+        <div className="w-fit h-full bg-white/20 p-2 rounded-xl flex items-center justify-center animate-shift1">
           <Image
             src="/projectImages/ReviewYourFood/cover.png"
             alt="Review Your Food"
@@ -60,8 +60,8 @@ export default function projects() {
         </div>
       </section>
       <hr class="h-px my-12 w-2/3 bg-white border-0 " />
-      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-24 gap-8 mb-24">
-        <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1">
+      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8 mb-24">
+        <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
           <h1 className="text-2xl ">GoDigital</h1>
           <div className="flex flex-col items-start gap-2">
             <p>ABOUT</p>
@@ -102,7 +102,7 @@ export default function projects() {
             </div>
           </div>
         </div>
-        <div className="w-fit h-fit bg-white/20 p-2 rounded-xl flex items-center justify-center order-1 lg:order-2">
+        <div className="w-fit h-fit bg-white/20 p-2 rounded-xl flex items-center justify-center order-1 lg:order-2 animate-shift2">
           <Image
             src="/projectImages/GoDigital/cover.png"
             alt="GoDigital"
