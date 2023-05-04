@@ -38,7 +38,10 @@ export default function projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon icon="simple-icons:github" className="text-2xl" />
+                <Icon
+                  icon="simple-icons:github"
+                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+                />
               </Link>
 
               <p>·</p>
@@ -47,7 +50,10 @@ export default function projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon icon="mdi:external-link" className="text-2xl" />
+                <Icon
+                  icon="mdi:external-link"
+                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+                />
               </Link>
             </div>
           </div>
@@ -59,23 +65,39 @@ export default function projects() {
           <h1 className="text-2xl ">GoDigital</h1>
           <div className="flex flex-col items-start gap-2">
             <p>ABOUT</p>
-            <p></p>
+            <p>
+              A website for my side electronic music project, GoDigital. Built
+              using Javascript, HTML, and CSS. Background animations created
+              using{" "}
+              <Link
+                href="https://hydra.ojack.xyz/docs/#/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hydra Video Synth
+              </Link>
+            </p>
             <div className="flex flex-row gap-2 mt-2">
               <Link
                 href="https://github.com/MaximMurphy/GoDigital"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon icon="simple-icons:github" className="text-2xl" />
+                <Icon
+                  icon="simple-icons:github"
+                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+                />
               </Link>
-
               <p>·</p>
               <Link
                 href="https://godigitalgo.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon icon="mdi:external-link" className="text-2xl" />
+                <Icon
+                  icon="mdi:external-link"
+                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+                />
               </Link>
             </div>
           </div>
