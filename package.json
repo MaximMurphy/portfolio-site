@@ -24,6 +24,7 @@
     "three": "^0.152.2"
   },
   "devDependencies": {
+    "@iconify-icon/react": "^1.0.7",
     "next-transpile-modules": "^10.0.0"
   }
 }

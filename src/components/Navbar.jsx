@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -5,6 +7,7 @@ import { useEffect, useRef } from "react";
 export default function Navbar() {
   let menu;
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     menu = document.getElementById("menu");
 
     window.onscroll = () => {
