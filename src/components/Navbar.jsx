@@ -16,7 +16,7 @@ export default function Navbar() {
   const handleOpen = () => {
     menu = document.getElementById("menu");
     console.log("open menu");
-    menu.classList.remove("w-0");
+
     menu.classList.add("w-full");
   };
 
@@ -24,13 +24,12 @@ export default function Navbar() {
     menu = document.getElementById("menu");
     console.log("close menu");
     menu.classList.remove("w-full");
-    menu.classList.add("w-0");
   };
 
   return (
     <>
       <div
-        className="z-50 w-0 fixed bg-green-950 min-h-screen flex flex-col items-center overflow-hidden "
+        className="z-50 w-0 fixed bg-green-950 min-h-screen flex flex-col items-center overflow-hidden origin-left duration-300"
         id="menu"
       >
         <div className="min-w-full top-0 flex justify-center mt-14 lg:mt-20 ml-[68%] lg:ml-[88%] ">
