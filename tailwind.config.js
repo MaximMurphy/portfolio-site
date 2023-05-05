@@ -32,6 +32,8 @@ module.exports = {
       colors: {
         softblue: {
           400: "#6ea0e0",
+          600: "#6c87ab",
+          800: "#617185",
         },
       },
       backgroundImage: {
