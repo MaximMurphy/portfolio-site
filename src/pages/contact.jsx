@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function contact() {
+  //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
   async function handleSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
@@ -12,7 +13,7 @@ export default function contact() {
       if (!response.ok) {
         throw new Error(`Invalid response: ${response.status}`);
       }
-      alert("Thanks for contacting us, we will get back to you soon!");
+      alert("Thanks for your message, we'll get back to you soon!");
     } catch (err) {
       console.error(err);
       alert("There was an error submitting the form :(");

@@ -12,6 +12,7 @@
     "@ionic/react": "^7.0.5",
     "@react-three/drei": "^9.66.1",
     "@react-three/fiber": "^8.13.0",
+    "@superfaceai/one-sdk": "^2.4.2",
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
