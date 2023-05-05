@@ -17,12 +17,12 @@ module.exports = {
           "50%": { transform: "translateX(-1.5%)" },
         },
         shiftUp1: {
-          "0%, 100%": { transform: "translateY(5%)" },
-          "50%": { transform: "translateY(-5%)" },
+          "0%, 100%": { transform: "translateY(10px)" },
+          "50%": { transform: "translateY(-10px)" },
         },
         shiftUp2: {
-          "0%, 100%": { transform: "translateY(5%)" },
-          "50%": { transform: "translateY(-5%)" },
+          "0%, 100%": { transform: "translateY(-10%)" },
+          "50%": { transform: "translateY(10%)" },
         },
         scale: {
           "0%, 100%": { transform: "scale(120%)" },
