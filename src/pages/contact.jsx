@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function contact() {
-  //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
+
   async function handleSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
