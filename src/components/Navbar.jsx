@@ -9,9 +9,9 @@ export default function Navbar() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     menu = document.getElementById("menu");
+    let image = document.getElementById("rotateLogo");
 
     window.onscroll = () => {
-      let image = document.getElementById("rotateLogo");
       image.style.transform = "rotate(" + window.scrollY / 2 + "deg)";
     };
   }, []);

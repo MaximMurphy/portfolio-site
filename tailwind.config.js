@@ -42,8 +42,8 @@ module.exports = {
       animation: {
         shiftSide1: "shiftSide1 3s ease-in-out infinite",
         shiftSide2: "shiftSide2 3s ease-in-out infinite",
-        shiftUp1: "shiftUp1 5s ease-in-out infinite",
-        shiftUp2: "shiftUp2 5s ease-in-out infinite",
+        shiftUp1: "shiftUp1 3s ease-in-out infinite",
+        shiftUp2: "shiftUp2 3s ease-in-out infinite",
         scale: "scale 3s ease-in-out infinite",
       },
     },

@@ -8,49 +8,53 @@ export default function about() {
           About Me
         </h1>
         <section className="flex flex-col lg:flex-row justify-between gap-12">
-          <div className="absolute w-28 h-28 top-[610px] left-[141px] rounded-full bg-gradient-to-b from-red-700 to-red-500 animate-scale"></div>
-          <div className="w-fit h-full bg-white/20 rounded-xl backdrop-blur-sm border-solid border border-white/20 shadow-xl flex flex-col items-center text-center justify-center p-8 gap-4">
+          <div className="w-fit h-full bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center justify-center p-8 gap-4">
+            <Image
+              src="/about/osu.png"
+              alt="OSU Logo"
+              width={500}
+              height={500}
+              className="w-36 h-36"
+            />
             <p>
               I graduated from The Ohio State University with a degree in
               Computer Science and Engineering in December 2022. My
               specialization was in Software Engineering.
             </p>
-            <Image
-              src="/osu2.png"
-              alt="OSU Logo"
-              width={500}
-              height={500}
-              className="w-36 h-36"
-            />
           </div>
           <div className="w-fit h-full bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center justify-center p-8 gap-4">
-            <p>
-              I am actively invovlved in the Ukrainain Scouting Organization,
-              Plast.
-            </p>
             <Image
-              src="/chm.png"
+              src="/about/chm.png"
               alt="Plast Chornomortsi Logo"
               width={500}
               height={500}
               className="w-36 h-36"
             />
+            <p>
+              I am actively invovlved in the Ukrainain Scouting Organization,
+              Plast.
+            </p>
           </div>
           <div className="w-fit h-full bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center justify-center p-8 gap-4">
+            <Image
+              src="/about/musicNotes.png"
+              alt="Music Note"
+              width={500}
+              height={500}
+              className="w-36 h-32 invert"
+            />
             <p>
               Outside of web development, my main interests are making
               electronic music, 35mm film photography, and hiking.
             </p>
-            <Image
-              src="/osu2.png"
-              alt="OSU Logo"
-              width={500}
-              height={500}
-              className="w-36 h-36"
-            />
           </div>
         </section>
-        <Image src="/earl.png" alt="photo of a duck" width={200} height={200} />
+        <Image
+          src="/about/earl.png"
+          alt="photo of a duck"
+          width={200}
+          height={200}
+        />
       </section>
     </>
   );
