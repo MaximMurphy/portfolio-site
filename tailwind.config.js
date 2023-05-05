@@ -8,13 +8,25 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        shift1: {
+        shiftSide1: {
           "0%, 100%": { transform: "translateX(-1.5%)" },
           "50%": { transform: "translateX(1.5%)" },
         },
-        shift2: {
+        shiftSide2: {
           "0%, 100%": { transform: "translateX(1.5%)" },
           "50%": { transform: "translateX(-1.5%)" },
+        },
+        shiftUp1: {
+          "0%, 100%": { transform: "translateY(5%)" },
+          "50%": { transform: "translateY(-5%)" },
+        },
+        shiftUp2: {
+          "0%, 100%": { transform: "translateY(5%)" },
+          "50%": { transform: "translateY(-5%)" },
+        },
+        scale: {
+          "0%, 100%": { transform: "scale(120%)" },
+          "50%": { transform: "scale(100%)" },
         },
       },
       colors: {
@@ -28,8 +40,11 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        shift1: "shift1 3s ease-in-out infinite",
-        shift2: "shift2 3s ease-in-out infinite",
+        shiftSide1: "shiftSide1 3s ease-in-out infinite",
+        shiftSide2: "shiftSide2 3s ease-in-out infinite",
+        shiftUp1: "shiftUp1 5s ease-in-out infinite",
+        shiftUp2: "shiftUp2 5s ease-in-out infinite",
+        scale: "scale 3s ease-in-out infinite",
       },
     },
   },
