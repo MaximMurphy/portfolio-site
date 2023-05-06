@@ -91,7 +91,7 @@ export default function Navbar() {
           />
         </Link>
         <button
-          className="font-bold text-base tracking-widest mt-6 lg:mt-12 hover:text-blue-950 hover:drop-shadow-2xl hover:scale-110"
+          className="font-bold text-base tracking-widest mt-6 lg:mt-12 hover:text-orange-600 hover:drop-shadow-2xl hover:scale-110"
           onClick={handleOpen}
         >
           MENU
