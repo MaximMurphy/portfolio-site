@@ -3,11 +3,9 @@ import Image from "next/image";
 export default function about() {
   return (
     <>
-      <section className="bg-gradient-to-b from-softblue-400 via-blue-400 to-blue-300 w-full flex flex-col items-center text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-24 pt-12 lg:pt-2 gap-12">
-        <h1 className="underline decoration-2 underline-offset-4 text-3xl mb-12">
-          About Me
-        </h1>
-        <section className="flex flex-col lg:flex-row justify-between gap-12">
+      <section className="bg-gradient-to-b from-softblue-400 via-blue-400 to-blue-300 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-24 pt-12 lg:pt-2 gap-12">
+        <h1 className="text-5xl lg:text-9xl font-bold text-end">About Me</h1>
+        <section className="flex flex-col items-center lg:flex-row justify-between gap-12">
           <div className="w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
             <Image
               src="/about/osu.png"

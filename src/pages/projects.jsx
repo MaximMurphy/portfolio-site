@@ -7,8 +7,8 @@ import Link from "next/link";
 
 export default function projects() {
   return (
-    <div className="bg-gradient-to-b from-softblue-400 to-teal-900/50 w-full flex flex-col items-center text-white font-bold tracking-wider px-8 pb-24 pt-8 lg:pt-0 gap-4 lg:gap-12">
-      <h1 className="underline decoration-2 underline-offset-4 mb-12 text-3xl">
+    <div className="bg-gradient-to-b from-softblue-400 to-teal-900/50 w-full flex flex-col text-white font-bold tracking-wider px-8 pb-24 pt-8 lg:pt-0 gap-4 lg:gap-12">
+      <h1 className="text-5xl lg:text-9xl font-bold text-end lg:px-20">
         Projects
       </h1>
       <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
@@ -59,7 +59,7 @@ export default function projects() {
           </div>
         </div>
       </section>
-      <hr class="h-px my-12 w-2/3 bg-white border-0 " />
+      <hr class="h-px my-12 w-full bg-white border-0 px-12" />
       <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8 mb-24">
         <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
           <h1 className="text-2xl ">GoDigital</h1>

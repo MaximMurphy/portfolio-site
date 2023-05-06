@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function contact() {
-
   async function handleSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
@@ -14,6 +13,7 @@ export default function contact() {
         throw new Error(`Invalid response: ${response.status}`);
       }
       alert("Thanks for your message, we'll get back to you soon!");
+      document.getElementById("myForm").reset();
     } catch (err) {
       console.error(err);
       alert("There was an error submitting the form :(");
@@ -31,6 +31,7 @@ export default function contact() {
       </p>
 
       <form
+        id="myForm"
         onSubmit={handleSubmit}
         className="z-40 w-full h-full bg-white/10 rounded-xl backdrop-blur-sm border-solid border border-white/10 shadow-xl flex flex-col items-start justify-center text-white font-bold p-12 lg:p-16"
       >
