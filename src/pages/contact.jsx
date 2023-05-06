@@ -22,12 +22,14 @@ export default function contact() {
 
   return (
     <section className="bg-gradient-to-b from-softblue-400 via-softblue-600 to-softblue-800 w-full flex flex-col px-12 lg:px-48 mt-12 lg:mt-0 gap-12 lg:gap-24 pb-24">
-      <h1 className="text-7xl lg:text-9xl font-bold text-end">Contact</h1>
+      <h1 className="text-7xl lg:text-9xl font-bold text-center lg:text-end">
+        Contact
+      </h1>
       <p className="text-3xl lg:text-5xl w-full flex flex-col items-start font-bold text-white tracking-widest gap-4">
         If you would like to discuss a new project, please get in touch.
       </p>
-      <p className="text-lg lg:text-3xl w-full flex flex-col items-center font-bold text-white tracking-widest gap-4">
-        maxim.murphy8@gmail.com
+      <p className="text-base lg:text-3xl w-full flex flex-col items-center font-bold text-slate-300 tracking-widest gap-4">
+        <a href="mailto:maxim.murphy8@gmail.com">maxim.murphy8@gmail.com</a>
       </p>
 
       <form
