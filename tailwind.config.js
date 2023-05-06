@@ -28,6 +28,30 @@ module.exports = {
           "0%, 100%": { transform: "scale(120%)" },
           "50%": { transform: "scale(100%)" },
         },
+        bounceAround: {
+          "0%, 100%": {
+            transform: "translateY(-100px)",
+          },
+          "50%": {
+            transform: "translateY(-1775px)",
+          },
+        },
+        sideToSide: {
+          "0%, 100%": {
+            transform: "translateX(-500px)",
+          },
+          "50%": {
+            transform: "translateX(150px)",
+          },
+        },
+        sideToSide2: {
+          "0%, 100%": {
+            transform: "translateX(-150px)",
+          },
+          "50%": {
+            transform: "translateX(500px)",
+          },
+        },
       },
       colors: {
         softblue: {
@@ -47,6 +71,9 @@ module.exports = {
         shiftUp1: "shiftUp1 3s ease-in-out infinite",
         shiftUp2: "shiftUp2 3s ease-in-out infinite",
         scale: "scale 3s ease-in-out infinite",
+        bounceAround: "bounceAround 10s ease-in-out infinite",
+        sideToSide: "sideToSide 10s ease-in-out infinite",
+        sideToSide2: "sideToSide2 10s ease-in-out infinite",
       },
     },
   },

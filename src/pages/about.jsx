@@ -8,7 +8,7 @@ export default function about() {
           About Me
         </h1>
         <section className="lg:z-40 flex flex-col items-center lg:flex-row justify-between gap-12">
-          <div className="w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
+          <div className="z-10 w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
             <Image
               src="/about/osu.png"
               alt="OSU Logo"
@@ -25,7 +25,7 @@ export default function about() {
               Animation Techniques
             </p>
           </div>
-          <div className="w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
+          <div className="z-10 w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
             <Image
               src="/about/chm.png"
               alt="Plast Chornomortsi Logo"
@@ -43,7 +43,7 @@ export default function about() {
               charge of the bank account.
             </p>
           </div>
-          <div className="w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
+          <div className="z-10 w-fit h-[500px] overflow-y-scroll bg-white/20 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-center text-center p-8 gap-4">
             <Image
               src="/about/musicNotes.png"
               alt="Music Note"
@@ -57,13 +57,23 @@ export default function about() {
             </p>
           </div>
         </section>
+      </section>
+      <div className="flex justify-center">
         <Image
           src="/about/earl.png"
-          alt="photo of a duck"
-          width={200}
-          height={200}
+          alt="A 3D rendered duck"
+          width={500}
+          height={500}
+          className="w-36 h-36 lg:-mt-[42rem] animate-bounceAround lg:animate-sideToSide"
         />
-      </section>
+        <Image
+          src="/about/earlCopy.png"
+          alt="A 3D rendered duck"
+          width={500}
+          height={500}
+          className="w-36 h-36 lg:-mt-[10rem] animate-bounceAround lg:animate-sideToSide2"
+        />
+      </div>
     </>
   );
 }
