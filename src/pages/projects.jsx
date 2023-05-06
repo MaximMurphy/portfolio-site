@@ -14,7 +14,7 @@ export default function projects() {
       <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
         <div className="w-fit h-full bg-white/20 p-2 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex items-center justify-center animate-shiftUp1 lg:animate-shiftSide1">
           <Image
-            src="/projectImages/ReviewYourFood/cover.png"
+            src="/projectImages/ReviewYourFood/newcover.png"
             alt="Review Your Food"
             width={1500}
             height={740}

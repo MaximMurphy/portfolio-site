@@ -40,7 +40,7 @@ const Scene = (props) => {
     //mobile
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.165} />
+        <primitive object={obj} scale={0.175} />
       </group>
     );
   }
@@ -56,7 +56,7 @@ export default function LegoModel() {
           position: [10, 20, 0],
         }}
       >
-        <ambientLight color={"white"} intensity={0.9} />
+        <ambientLight color={"white"} intensity={0} />
         <pointLight castShadow />
 
         <Suspense fallback={null}>
