@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function about() {
   return (
     <>
-      <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-24 pt-12 gap-12 -mt-96">
+      <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-40 pt-12 gap-12 -mt-96">
         <h1 className="text-5xl lg:text-9xl font-bold text-center lg:text-end mt-96">
           About Me
         </h1>
@@ -64,14 +64,14 @@ export default function about() {
           alt="A 3D rendered duck"
           width={500}
           height={500}
-          className="w-36 h-36 lg:-mt-[75rem] animate-bounceAround lg:animate-sideToSide"
+          className="w-36 h-36 lg:-mt-[83rem] animate-bounceAround lg:animate-sideToSide"
         />
         <Image
           src="/about/earlCopy.png"
           alt="A 3D rendered duck"
           width={500}
           height={500}
-          className="absolute w-36 h-36 lg:-mt-[10rem] animate-bounceAround lg:animate-sideToSide2"
+          className="absolute w-36 h-36 lg:-mt-[18rem] animate-bounceAround lg:animate-sideToSide2"
         />
       </div>
     </>
