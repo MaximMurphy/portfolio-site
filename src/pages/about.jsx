@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function about() {
   return (
     <>
-      <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-24 pt-12 gap-12 -mt-72">
-        <h1 className="text-5xl lg:text-9xl font-bold text-center lg:text-end mt-80 lg:mt-56">
+      <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pb-24 pt-12 gap-12 -mt-96">
+        <h1 className="text-5xl lg:text-9xl font-bold text-center lg:text-end mt-96">
           About Me
         </h1>
         <section className="lg:z-40 flex flex-col items-center lg:flex-row justify-between gap-12">
@@ -58,20 +58,20 @@ export default function about() {
           </div>
         </section>
       </section>
-      <div className="flex justify-center">
+      <div className="absolute flex flex-col justify-center items-center invisible lg:visible">
         <Image
           src="/about/earl.png"
           alt="A 3D rendered duck"
           width={500}
           height={500}
-          className="w-36 h-36 lg:-mt-[42rem] animate-bounceAround lg:animate-sideToSide"
+          className="w-36 h-36 lg:-mt-[75rem] animate-bounceAround lg:animate-sideToSide"
         />
         <Image
           src="/about/earlCopy.png"
           alt="A 3D rendered duck"
           width={500}
           height={500}
-          className="w-36 h-36 lg:-mt-[10rem] animate-bounceAround lg:animate-sideToSide2"
+          className="absolute w-36 h-36 lg:-mt-[10rem] animate-bounceAround lg:animate-sideToSide2"
         />
       </div>
     </>

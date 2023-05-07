@@ -38,18 +38,18 @@ module.exports = {
         },
         sideToSide: {
           "0%, 100%": {
-            transform: "translateX(-500px)",
+            transform: "translateX(100px)",
           },
           "50%": {
-            transform: "translateX(150px)",
+            transform: "translateX(800px)",
           },
         },
         sideToSide2: {
           "0%, 100%": {
-            transform: "translateX(-150px)",
+            transform: "translateX(550px)",
           },
           "50%": {
-            transform: "translateX(500px)",
+            transform: "translateX(1250px)",
           },
         },
       },
@@ -72,8 +72,8 @@ module.exports = {
         shiftUp2: "shiftUp2 3s ease-in-out infinite",
         scale: "scale 3s ease-in-out infinite",
         bounceAround: "bounceAround 10s ease-in-out infinite",
-        sideToSide: "sideToSide 10s ease-in-out infinite",
-        sideToSide2: "sideToSide2 10s ease-in-out infinite",
+        sideToSide: "sideToSide 5s ease-in-out infinite",
+        sideToSide2: "sideToSide2 5s ease-in-out infinite",
       },
     },
   },

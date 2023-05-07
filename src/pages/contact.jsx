@@ -21,8 +21,8 @@ export default function contact() {
   }
 
   return (
-    <section className="bg-slate-400 -mt-72 w-full flex flex-col px-12 lg:px-48 gap-12 lg:gap-24 pb-24">
-      <h1 className="text-green-900 text-7xl lg:text-9xl font-bold text-center lg:text-end mt-[22rem] lg:mt-64">
+    <section className="bg-slate-400 -mt-96 w-full flex flex-col px-12 lg:px-48 gap-12 lg:gap-24 pb-24">
+      <h1 className="text-green-900 text-7xl lg:text-9xl font-bold text-start lg:text-end mt-[28rem] lg:mt-96">
         Contact
       </h1>
       <p className="text-green-950 text-3xl lg:text-5xl w-full flex flex-col items-start font-bold tracking-widest gap-4">
