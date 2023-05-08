@@ -1,4 +1,5 @@
 import React from "react";
+import EmailLink from "@/components/EmailLink";
 
 export default function contact() {
   async function handleSubmit(e) {
@@ -28,9 +29,7 @@ export default function contact() {
       <p className="text-green-950 text-3xl lg:text-5xl w-full flex flex-col items-start font-bold tracking-widest gap-4">
         If you would like to discuss a new project, please get in touch.
       </p>
-      <p className="text-green-800 lg:text-3xl w-full flex flex-col items-center font-bold tracking-widest gap-4">
-        <a href="mailto:maxim.murphy8@gmail.com">maxim.murphy8@gmail.com</a>
-      </p>
+      <EmailLink />
 
       <form
         id="myForm"
