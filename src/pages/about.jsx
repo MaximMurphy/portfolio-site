@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function about() {
   return (
@@ -18,7 +19,7 @@ export default function about() {
           <p>
             I graduated from The Ohio State University in December 2022 with a
             degree in Computer Science and Engineering, specializing in Software
-            Engineering. Key courses included Capstone Design - Software
+            Engineering. Key courses included Capstone Design: Software
             Applications, Mobile Application Development, Web Applications, and
             Computer Game & Animation Techniques.
           </p>
@@ -32,10 +33,10 @@ export default function about() {
             className="w-36 h-36"
           />
           <p>
-            Actively involved in the Ukrainian Scouting Organization, Plast, my
-            entire life. I have been a summer camp counselor since 2017. In
-            2021, I joined the Chornomortsi subdivision with a focus on boating
-            and running a water sports camp. Currently, I serve as the camp
+            I am actively involved in the Ukrainian Scouting Organization,
+            Plast. I have been a summer camp counselor since 2017. In 2021, I
+            joined the Chornomortsi subdivision with a focus on boating and
+            running a water sports camp. Currently, I serve as the camp
             administrator, responsible for developing registration forms,
             coordinating logistics for gear transportation, and overseeing
             financial operations.
@@ -51,7 +52,16 @@ export default function about() {
           />
           <p>
             Beyond web development, I have a passion for electronic music
-            production, culinary arts, 35mm film photography, and travel.
+            production, culinary arts, 35mm film photography, and travel. I
+            produce music under the alias GoDigital and developed{" "}
+            <Link
+              href="https://godigitalgo.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-orange-600"
+            >
+              my own website
+            </Link>
           </p>
         </div>
       </section>
