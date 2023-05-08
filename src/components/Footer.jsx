@@ -74,7 +74,13 @@ export default function Footer() {
             />
           </Link>
           <p className="hover:drop-shadow-2xl hover:scale-110 hover:text-blue-950">
-            RESUME
+            <Link
+              href="/RESUME Maxim Murphy.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RESUME
+            </Link>
           </p>
         </div>
       </div>

@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        neue: "28px 28px 56px #121d42, -28px -28px 56px #1c2d66",
+        neueInset:
+          "inset 20px 20px 60px #121d42, inset -20px -20px 60px #1c2d66",
+      },
       keyframes: {
         shiftSide1: {
           "0%, 100%": { transform: "translateX(-1.5%)" },
@@ -38,18 +43,18 @@ module.exports = {
         },
         sideToSide: {
           "0%, 100%": {
-            transform: "translateX(100px)",
+            transform: "translateX(250%)",
           },
           "50%": {
-            transform: "translateX(800px)",
+            transform: "translateX(-250%)",
           },
         },
         sideToSide2: {
           "0%, 100%": {
-            transform: "translateX(550px)",
+            transform: "translateX(80%)",
           },
           "50%": {
-            transform: "translateX(1250px)",
+            transform: "translateX(-80%)",
           },
         },
       },
@@ -72,8 +77,8 @@ module.exports = {
         shiftUp2: "shiftUp2 3s ease-in-out infinite",
         scale: "scale 3s ease-in-out infinite",
         bounceAround: "bounceAround 10s ease-in-out infinite",
-        sideToSide: "sideToSide 15s ease-in-out infinite",
-        sideToSide2: "sideToSide2 15s ease-in-out infinite",
+        sideToSide: "sideToSide 10s ease-in-out infinite",
+        sideToSide2: "sideToSide2 10s ease-in-out infinite",
       },
     },
   },
