@@ -7,7 +7,7 @@ export default function about() {
         About Me
       </h1>
       <section className="flex flex-col items-center lg:flex-row justify-between gap-12">
-        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start p-8 gap-8">
+        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start px-4 py-8 lg:px-8 gap-8">
           <Image
             src="/about/osu.png"
             alt="OSU Logo"
@@ -23,7 +23,7 @@ export default function about() {
             Computer Game & Animation Techniques.
           </p>
         </div>
-        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start p-8 gap-8">
+        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start px-4 py-8 lg:px-8 gap-8">
           <Image
             src="/about/chm.png"
             alt="Plast Chornomortsi Logo"
@@ -41,7 +41,7 @@ export default function about() {
             financial operations.
           </p>
         </div>
-        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start p-8 gap-8">
+        <div className="z-10 w-fit h-[550px] overflow-y-scroll bg-blue-950 rounded-3xl shadow-neueInset flex flex-col items-center text-center lg:text-start px-4 py-8 lg:px-8 gap-8">
           <Image
             src="/about/musicNotes.png"
             alt="Music Note"

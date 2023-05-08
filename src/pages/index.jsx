@@ -16,7 +16,6 @@ export default function Home() {
           <h1 className="text-5xl">👨‍💻⚡️🌐</h1>
         </div>
       </section>
-
       <Skills />
     </main>
   );
