@@ -30,7 +30,7 @@ export default function Skills() {
             <Icon icon="simple-icons:css3" />
           </div>
           <div className="flex flex-row gap-4 justify-center lg:justify-normal">
-            <p>TailwindCSS</p>
+            <p>Tailwind</p>
             <Icon icon="simple-icons:tailwindcss" />
           </div>
         </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function about() {
   return (
-    <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pt-12 gap-12 -mt-96">
+    <section className="bg-blue-950 w-full flex flex-col text-white text-lg lg:text-2xl font-bold tracking-wider px-12 lg:px-32 pt-12 pb-36 gap-12 -mt-96">
       <h1 className="text-5xl lg:text-9xl font-bold text-center lg:text-end mt-96 lg:pb-8">
         About Me
       </h1>
@@ -65,15 +65,6 @@ export default function about() {
           </p>
         </div>
       </section>
-      <div className="flex flex-col justify-center items-center p-20">
-        <Image
-          src="/about/earl.png"
-          alt="A 3D rendered duck"
-          width={500}
-          height={500}
-          className="h-36 w-36 lg:w-48 lg:h-48 animate-sideToSide2 lg:animate-sideToSide"
-        />
-      </div>
     </section>
   );
 }
