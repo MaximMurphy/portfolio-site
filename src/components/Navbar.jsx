@@ -45,7 +45,7 @@ export default function Navbar() {
         <ul className="text-4xl font-bold tracking-widest flex flex-col gap-16 lg:gap-20 mt-32 lg:mt-36">
           <Link href="/">
             <li
-              className="hover:-translate-y-1 hover:text-orange-200 hover:drop-shadow-2xl"
+              className="hover:-translate-y-1 hover:text-orange-400 hover:drop-shadow-2xl"
               onClick={handleClose}
             >
               HOME
