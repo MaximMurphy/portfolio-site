@@ -11,10 +11,10 @@ export default function Wavform() {
         <div className="flex flex-col items-start gap-2">
           <p>ABOUT</p>
           <p>
-            An commerce site with a focus of selling Sound Packs and Synth
+            An e-commerce site with a focus of selling Sound Packs and Synth
             Presets to be used in electronic music production. Built with
             Typescript and Tailwind using the new App Router and Server
-            Coponents in Next.js 13.4
+            Components in Next.js 13.4
           </p>
           <div className="flex flex-row gap-2 mt-2">
             <Link
