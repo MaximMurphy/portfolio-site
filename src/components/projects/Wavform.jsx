@@ -5,7 +5,7 @@ import { Icon } from "@iconify-icon/react";
 
 export default function Wavform() {
   return (
-    <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8 mb-24">
+    <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
       <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
         <h1 className="text-2xl ">WAVFORM</h1>
         <div className="flex flex-col items-start gap-2">
