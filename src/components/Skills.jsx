@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section className="w-full flex flex-col text-center lg:text-start text-softblue-400 text-2xl tracking-wider p-12 py-24 bg-blue-950 gap-12">
       <h1 className="text-white underline font-bold text-center">Skills</h1>
-      <div className="flex flex-col justify-between font-medium px-12 gap-16 lg:px-80 lg:flex-row">
+      <div className="flex flex-col justify-between font-medium px-12 gap-16 lg:px-72 lg:flex-row">
         <div className="flex flex-col gap-8 ">
           <h1 className="text-slate-300 font-bold">Front End Technologies</h1>
           <div className="flex flex-row gap-4 justify-center lg:justify-normal">
@@ -62,10 +62,6 @@ export default function Skills() {
           <div className="flex flex-row gap-4 justify-center lg:justify-normal">
             <p>ThreeJS</p>
             <Icon icon="simple-icons:threedotjs" />
-          </div>
-          <div className="flex flex-row gap-4 justify-center lg:justify-normal">
-            <p>P5</p>
-            <Icon icon="simple-icons:p5dotjs" />
           </div>
         </div>
       </div>

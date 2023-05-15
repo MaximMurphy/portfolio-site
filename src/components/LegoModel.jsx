@@ -40,7 +40,7 @@ const Scene = (props) => {
     //mobile
     return (
       <group ref={ref}>
-        <primitive object={obj} scale={0.17} />
+        <primitive object={obj} scale={0.3} />
       </group>
     );
   }
@@ -48,7 +48,7 @@ const Scene = (props) => {
 
 export default function LegoModel() {
   return (
-    <div className="h-72 w-full -mt-8">
+    <div className="h-36 lg:h-72 w-full lg:w-[50rem] lg:-mt-24">
       <Canvas
         className="h-full"
         shadows
