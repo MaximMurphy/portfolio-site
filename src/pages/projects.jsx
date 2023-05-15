@@ -1,9 +1,5 @@
-"use client";
-
-import { Icon } from "@iconify-icon/react";
-
-import Image from "next/image";
-import Link from "next/link";
+import GoDigital from "@/components/projects/GoDigital";
+import ReviewYourFood from "@/components/projects/ReviewYourFood";
 
 export default function projects() {
   return (
@@ -11,110 +7,9 @@ export default function projects() {
       <h1 className="text-5xl lg:text-9xl font-bold text-end mb-8 lg:px-20">
         Projects
       </h1>
-      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
-        <div className="w-fit h-full bg-white/20 p-2 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex items-center justify-center animate-shiftUp1 lg:animate-shiftSide1">
-          <Image
-            src="/projectImages/ReviewYourFood/newcover.png"
-            alt="Review Your Food"
-            width={1500}
-            height={740}
-            quality={100}
-            priority
-            className="w-full h-full rounded-lg lg:rounded-xl"
-          />
-        </div>
-        <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8">
-          <h1 className="text-2xl ">Review Your Food</h1>
-          <div className="flex flex-col items-start gap-2">
-            <p>ABOUT</p>
-            <p>
-              A web application for users to review food from a restaraunt and
-              share with others. Developed using NextJS for frontend and
-              Firebase for backend
-            </p>
-            <div className="flex flex-row gap-2 mt-2">
-              <Link
-                href="https://github.com/MaximMurphy/recipe-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon
-                  icon="simple-icons:github"
-                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-                />
-              </Link>
-
-              <p>·</p>
-              <Link
-                href="https://review-your-food.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon
-                  icon="mdi:external-link"
-                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-                />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ReviewYourFood />
       <hr className="h-px my-12 w-full bg-white border-0 px-12" />
-      <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8 mb-24">
-        <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
-          <h1 className="text-2xl ">GoDigital</h1>
-          <div className="flex flex-col items-start gap-2">
-            <p>ABOUT</p>
-            <p>
-              A website for my side electronic music project, GoDigital. Built
-              using Javascript, HTML, and CSS. Background animations created
-              using{" "}
-              <Link
-                href="https://hydra.ojack.xyz/docs/#/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-950"
-              >
-                Hydra Video Synth
-              </Link>
-            </p>
-            <div className="flex flex-row gap-2 mt-2">
-              <Link
-                href="https://github.com/MaximMurphy/GoDigital"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon
-                  icon="simple-icons:github"
-                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-                />
-              </Link>
-              <p>·</p>
-              <Link
-                href="https://godigitalgo.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon
-                  icon="mdi:external-link"
-                  className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-                />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="w-fit h-fit bg-white/20 p-2 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex items-center justify-center order-1 lg:order-2 animate-shiftUp1 lg:animate-shiftSide2">
-          <Image
-            src="/projectImages/GoDigital/cover.png"
-            alt="GoDigital"
-            width={1500}
-            height={740}
-            quality={100}
-            priority
-            className="w-full h-full rounded-lg lg:rounded-xl"
-          />
-        </div>
-      </section>
+      <GoDigital />
     </div>
   );
 }
