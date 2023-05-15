@@ -1,5 +1,6 @@
 import GoDigital from "@/components/projects/GoDigital";
 import ReviewYourFood from "@/components/projects/ReviewYourFood";
+import Wavform from "@/components/projects/Wavform";
 
 export default function projects() {
   return (
@@ -7,6 +8,8 @@ export default function projects() {
       <h1 className="text-5xl lg:text-9xl font-bold text-end mb-8 lg:px-20">
         Projects
       </h1>
+      <Wavform />
+      <hr className="h-px my-12 w-full bg-white border-0 px-12" />
       <ReviewYourFood />
       <hr className="h-px my-12 w-full bg-white border-0 px-12" />
       <GoDigital />
