@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -43,21 +41,14 @@ export default function Navbar() {
             CLOSE
           </button>
         </div>
-        <ul className="text-4xl font-bold tracking-widest flex flex-col gap-12 mt-32 lg:mt-36">
+
+        <ul className="text-4xl font-bold tracking-widest flex flex-col gap-16 lg:gap-20 mt-32 lg:mt-36">
           <Link href="/">
             <li
               className="hover:-translate-y-1 hover:text-orange-200 hover:drop-shadow-2xl"
               onClick={handleClose}
             >
               HOME
-            </li>
-          </Link>
-          <Link href="/about">
-            <li
-              className="hover:-translate-y-1 hover:text-orange-400 hover:drop-shadow-2xl"
-              onClick={handleClose}
-            >
-              ABOUT
             </li>
           </Link>
           <Link href="/projects">
@@ -87,7 +78,7 @@ export default function Navbar() {
             id="rotateLogo"
             width="800"
             height="800"
-            className="invert w-2/5 h-2/5 lg:w-64 lg:h-64 2xl:w-2/5 xl:h-2/5"
+            className="invert w-2/5 h-2/5 lg:w-48 lg:h-48"
           />
         </Link>
         <button

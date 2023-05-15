@@ -16,7 +16,7 @@ export default function Footer() {
             alt="github logo"
             width={50}
             height={50}
-            className="invert hover:drop-shadow-2xl hover:scale-110"
+            className="h-8 w-8 lg:h-12 lg:w-12 invert hover:drop-shadow-2xl hover:scale-110"
           />
         </Link>
         <Link
@@ -29,16 +29,22 @@ export default function Footer() {
             alt="linkedin logo"
             width={50}
             height={50}
-            className="invert hover:drop-shadow-2xl hover:scale-110"
+            className="h-8 w-8 lg:h-12 lg:w-12 invert hover:drop-shadow-2xl hover:scale-110"
           />
         </Link>
-        <p className="hover:drop-shadow-2xl hover:scale-110 mt-2">
+        <p className="hover:drop-shadow-2xl hover:scale-110">
           <Link
             href="/RESUME Maxim Murphy.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon icon="mdi:resume" width="50" height="50" />
+            <Image
+              src="/footerIcons/resume.png"
+              alt="resume"
+              width={50}
+              height={50}
+              className="h-8 w-8 lg:h-12 lg:w-12 invert hover:drop-shadow-2xl hover:scale-110"
+            />
           </Link>
         </p>
         {/* 
