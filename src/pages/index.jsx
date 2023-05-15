@@ -5,11 +5,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
-      <div className="w-full flex items-center lg:items-end justify-center lg:justify-end lg:pr-32">
+      <div className="w-full flex items-center lg:items-end justify-center lg:justify-end lg:pr-32 2xl:pr-52">
         <LegoModel />
       </div>
-
-      <section className="h-full w-full flex flex-col lg:flex-row items-center text-center justify-between px-8 lg:px-48 pb-24 gap-12 lg:-mt-24">
+      <section className="h-full w-full flex flex-col lg:flex-row items-center text-center justify-between px-8 lg:px-48 2xl:px-64 pb-24 gap-12 lg:-mt-24">
         <Image
           src="/profilePic2.jpg"
           alt="Maxim Murphy"

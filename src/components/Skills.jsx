@@ -63,10 +63,6 @@ export default function Skills() {
             <p>ThreeJS</p>
             <Icon icon="simple-icons:threedotjs" />
           </div>
-          <div className="flex flex-row gap-4 justify-center lg:justify-normal">
-            <p>P5</p>
-            <Icon icon="simple-icons:p5dotjs" />
-          </div>
         </div>
       </div>
     </section>
