@@ -7,15 +7,21 @@ export default function ReviewYourFood() {
   return (
     <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
       <div className="w-fit h-full bg-white/20 p-2 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex items-center justify-center animate-shiftUp1 lg:animate-shiftSide1">
-        <Image
-          src="/projectImages/ReviewYourFood/newcover.png"
-          alt="Review Your Food"
-          width={1500}
-          height={740}
-          quality={100}
-          priority
-          className="w-full h-full rounded-lg lg:rounded-xl"
-        />
+        <Link
+          href="https://review-your-food.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/projectImages/ReviewYourFood/newcover.png"
+            alt="Review Your Food"
+            width={1500}
+            height={740}
+            quality={100}
+            priority
+            className="w-full h-full rounded-lg lg:rounded-xl"
+          />
+        </Link>
       </div>
       <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8">
         <h1 className="text-2xl ">Review Your Food</h1>
