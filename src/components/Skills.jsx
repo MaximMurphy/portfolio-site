@@ -60,6 +60,10 @@ export default function Skills() {
             <Icon icon="simple-icons:typescript" />
           </div>
           <div className="flex flex-row gap-4 justify-center lg:justify-normal">
+            <p>Jest</p>
+            <Icon icon="simple-icons:jest" />
+          </div>
+          <div className="flex flex-row gap-4 justify-center lg:justify-normal">
             <p>ThreeJS</p>
             <Icon icon="simple-icons:threedotjs" />
           </div>
