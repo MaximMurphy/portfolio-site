@@ -66,6 +66,8 @@ module.exports = {
         },
         offwhite: {
           400: "#fffaf4",
+          600: "#eae3dc",
+          800: "#d5ccc2",
         },
       },
       backgroundImage: {

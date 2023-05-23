@@ -13,9 +13,11 @@ export default function Home() {
       <main className="min-h-screen lg:ml-80">
         <About />
         <Skills />
+        {/* 
         <div className="w-full flex items-center justify-center">
           <LegoModel />
         </div>
+        */}
         <Footer />
       </main>
     </>
