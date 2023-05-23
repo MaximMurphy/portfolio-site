@@ -64,6 +64,9 @@ module.exports = {
           600: "#6c87ab",
           800: "#617185",
         },
+        offwhite: {
+          400: "#fffaf4",
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -15,7 +15,7 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <nav className="hidden md:flex z-40 fixed bg-orange-50 flex-col h-full w-80 items-center gap-24 p-8">
+    <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-24 p-8">
       <Link href="/">
         <Image
           src="/maximMurphyAllCapsStarsBlue.png"
@@ -26,7 +26,7 @@ export default function Sidebar() {
           className="w-2/5 h-2/5 lg:w-48 lg:h-48"
         />
       </Link>
-      <div className="flex flex-col gap-16 text-blue-950 text-xl font-semibold tracking-wide">
+      <div className="flex flex-col gap-16 text-blue-950 text-xl font-semibold tracking-wider">
         <Link href="#about">About</Link>
         <Link href="#projects">Projects</Link>
         <Link href="#contact">Contact</Link>
