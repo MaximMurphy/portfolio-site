@@ -32,7 +32,13 @@ export default function About() {
           </div>
         </div>
 
-        <h1 className="text-3xl lg:text-5xl">👨‍💻⚡️🌐</h1>
+        <h1 className="mt-4 flex flex-row gap-12 lg:gap-48 text-xl lg:text-3xl text-cyan-800 tracking-widest">
+          <p>❉</p>
+          <p>✧</p>
+          <p>⌘</p>
+          <p>✧</p>
+          <p>❉</p>
+        </h1>
       </div>
     </section>
   );
