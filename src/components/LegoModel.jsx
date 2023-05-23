@@ -48,7 +48,7 @@ const Scene = (props) => {
 
 export default function LegoModel() {
   return (
-    <div className="h-36 lg:h-72 w-full lg:w-[50rem] lg:-mt-24">
+    <div className="h-36 lg:h-72 w-full lg:w-[50rem] mt-4">
       <Canvas
         className="h-full"
         shadows
