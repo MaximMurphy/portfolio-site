@@ -23,7 +23,7 @@ export default function Projects() {
       <ReviewYourFood />
       <hr className="h-px my-12 w-full bg-white border-0 px-12" />
       <GoDigital />
-      <div className="mt-24 w-full ml-12 lg:-ml-24 h-[0.1rem] lg:h-1 bg-blue-950"></div>
+      <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 bg-blue-950"></div>
     </div>
   );
 }

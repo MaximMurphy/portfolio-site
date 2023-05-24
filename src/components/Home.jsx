@@ -40,7 +40,7 @@ export default function Home() {
         <h1 className="mt-4 flex flex-row gap-12 lg:gap-48 text-xl lg:text-3xl text-cyan-800 tracking-widest">
           <p className="animate-spinslow">✢</p>
           <p className="animate-spinslowreverse">✧</p>
-          <p className="animate-spinslow">⌘</p>
+          <p>⌘</p>
           <p className="animate-spinslowreverse">✧</p>
           <p className="animate-spinslow">✢</p>
         </h1>

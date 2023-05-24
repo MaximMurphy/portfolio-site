@@ -8,7 +8,7 @@ export default function About() {
       <Home />
       <Skills />
       <Socials />
-      <div className="my-12 w-full -ml-12 lg:-ml-24 h-[0.1rem] lg:h-1 bg-blue-950"></div>
+      <div className="my-12 w-full lg:-ml-24 h-[0.1rem] lg:h-1 bg-blue-950"></div>
     </section>
   );
 }
