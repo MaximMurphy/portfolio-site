@@ -6,7 +6,7 @@ import { Icon } from "@iconify-icon/react";
 export default function GoDigital() {
   return (
     <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8 mb-24">
-      <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
+      <div className="w-[320px] lg:w-96 bg-stone-400/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
         <h1 className="text-2xl ">GoDigital</h1>
         <div className="flex flex-col items-start gap-2">
           <p>ABOUT</p>

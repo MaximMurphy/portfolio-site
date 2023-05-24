@@ -16,16 +16,21 @@ export default function Sidebar() {
 
   return (
     <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-12 p-4">
-      <Link href="/">
+      <Link href="#home" scroll={false}>
         <h1 id="rotateLogo" className="text-[10rem] text-blue-950">
           ❉
         </h1>
       </Link>
-      <div className="flex flex-col gap-12 text-blue-950 text-xl font-semibold tracking-wider">
-        <Link href="#about">About</Link>
-        <Link href="#projects">Projects</Link>
-        <Link href="#contact">Contact</Link>
-        <h2>👨‍💻⚡️🌐</h2>
+      <div className="flex flex-col gap-16 text-blue-950 text-lg font-semibold tracking-wide scroll-smooth">
+        <Link href="#about" scroll={false}>
+          ABOUT
+        </Link>
+        <Link href="#projects" scroll={false}>
+          PROJECTS
+        </Link>
+        <Link href="#contact" scroll={false}>
+          CONTACT
+        </Link>
       </div>
     </nav>
   );

@@ -57,6 +57,14 @@ module.exports = {
             transform: "translateX(-80%)",
           },
         },
+        spinreverse: {
+          "0%": {
+            transform: "rotate(360deg)",
+          },
+          "100%": {
+            transform: "rotate(0deg)",
+          },
+        },
       },
       colors: {
         softblue: {
@@ -84,6 +92,8 @@ module.exports = {
         bounceAround: "bounceAround 10s ease-in-out infinite",
         sideToSide: "sideToSide 10s ease-in-out infinite",
         sideToSide2: "sideToSide2 10s ease-in-out infinite",
+        spinslow: "spin 8s linear infinite",
+        spinslowreverse: "spinreverse 8s linear infinite",
       },
     },
   },
