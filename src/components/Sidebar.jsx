@@ -10,21 +10,16 @@ export default function Sidebar() {
     let image = document.getElementById("rotateLogo");
 
     window.onscroll = () => {
-      image.style.transform = "rotate(" + window.scrollY / 2 + "deg)";
+      image.style.transform = "rotate(" + window.scrollY / 4 + "deg)";
     };
   }, []);
 
   return (
-    <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-24 p-8">
+    <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-12 p-4">
       <Link href="/">
-        <Image
-          src="/maximMurphyAllCapsStarsBlue.png"
-          alt="maxim logo"
-          id="rotateLogo"
-          width="800"
-          height="800"
-          className="w-2/5 h-2/5 lg:w-48 lg:h-48"
-        />
+        <h1 id="rotateLogo" className="text-[10rem] text-blue-950">
+          ❉
+        </h1>
       </Link>
       <div className="flex flex-col gap-12 text-blue-950 text-xl font-semibold tracking-wider">
         <Link href="#about">About</Link>
