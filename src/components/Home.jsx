@@ -12,7 +12,7 @@ export default function Home() {
             <span className="text-blue-950">M</span>
             <span className="text-cyan-950 -ml-1 lg:-ml-1">A</span>
             <span className="text-blue-950 -ml-1 lg:ml-0">X</span>
-            <span className="text-cyan-950 -ml-1 lg:-ml-3">I</span>
+            <span className="text-cyan-950 -ml-2 lg:-ml-3">I</span>
             <span className="text-blue-950 -ml-2 lg:-ml-3">M</span>
           </h1>
           <h1 className="text-7xl lg:text-[10rem] italic font-serif ml-4 lg:ml-12">
@@ -20,7 +20,7 @@ export default function Home() {
             <span className="text-cyan-950 -ml-2 lg:-ml-3">U</span>
             <span className="text-blue-950 -ml-1 lg:-ml-2">R</span>
             <span className="text-cyan-950 -ml-1 lg:-ml-1">P</span>
-            <span className="text-blue-950 -ml-1 lg:-ml-4">H</span>
+            <span className="text-blue-950 -ml-2 lg:-ml-4">H</span>
             <span className="text-cyan-950 -ml-1 lg:-ml-1">Y</span>
           </h1>
         </div>
