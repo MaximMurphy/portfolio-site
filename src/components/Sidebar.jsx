@@ -32,33 +32,42 @@ const Sidebar = () => {
         </h1>
       </Link>
       <div className="w-full flex flex-col text-start ml-52 gap-16 text-blue-950 text-lg font-semibold tracking-wide scroll-smooth">
-        <Link
-          href="#about"
-          onMouseEnter={() => handleHover("More information about me 👨‍💻")}
-          onMouseLeave={() => handleHover("")}
-          scroll={false}
-          className="hover:text-cyan-800"
-        >
-          ABOUT
-        </Link>
-        <Link
-          href="#projects"
-          onMouseEnter={() => handleHover("My software development work 🤖")}
-          onMouseLeave={() => handleHover("")}
-          scroll={false}
-          className="hover:text-cyan-700"
-        >
-          PROJECTS
-        </Link>
-        <Link
-          href="#contact"
-          onMouseEnter={() => handleHover("Write me a message 📲")}
-          onMouseLeave={() => handleHover("")}
-          scroll={false}
-          className="hover:text-cyan-600"
-        >
-          CONTACT
-        </Link>
+        <div className="w-fit flex flex-row gap-2 group">
+          <p className="transition-all ease-in duration-300 opacity-0 group-hover:opacity-100 h-0 w-0 group-hover:h-4 group-hover:w-4 bg-cyan-600 mt-[.40rem]"></p>
+          <Link
+            href="#about"
+            onMouseEnter={() => handleHover("More information about me 👨‍💻")}
+            onMouseLeave={() => handleHover("")}
+            scroll={false}
+            className="hover:text-cyan-600"
+          >
+            ABOUT
+          </Link>
+        </div>
+        <div className="w-fit flex flex-row gap-2 group">
+          <p className="transition-all ease-in duration-300 opacity-0 group-hover:opacity-100 h-0 w-0 group-hover:h-4 group-hover:w-4 bg-orange-600 mt-[.40rem]"></p>
+          <Link
+            href="#projects"
+            onMouseEnter={() => handleHover("My software development work 🤖")}
+            onMouseLeave={() => handleHover("")}
+            scroll={false}
+            className="hover:text-orange-600"
+          >
+            PROJECTS
+          </Link>
+        </div>
+        <div className="w-fit flex flex-row gap-2 group">
+          <p className="transition-all ease-in duration-300 opacity-0 group-hover:opacity-100 h-0 w-0 group-hover:h-4 group-hover:w-4 bg-green-700 mt-[.40rem]"></p>
+          <Link
+            href="#contact"
+            onMouseEnter={() => handleHover("Write me a message 📲")}
+            onMouseLeave={() => handleHover("")}
+            scroll={false}
+            className="hover:text-green-700"
+          >
+            CONTACT
+          </Link>
+        </div>
       </div>
       <p
         id="description"
