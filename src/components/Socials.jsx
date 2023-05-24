@@ -6,11 +6,10 @@ export default function Socials() {
       <div>
         <p className="w-full text-cyan-950 text-justify leading-8 lg:leading-9">
           Maxim Murphy is a software developer who holds a degree in Computer
-          Science & Engineering from The{" "}
-          <span className="text-red-800">Ohio State</span> University. With a
-          strong focus on full stack web development and design, he combines
-          technical skills with a passion for creating dynamic and user-centric
-          digital experiences.
+          Science & Engineering from The Ohio State University. With a strong
+          focus on full stack web development and design, he combines technical
+          skills with a passion for creating dynamic and user-centric digital
+          experiences.
         </p>
       </div>
       <div className="w-full flex flex-row justify-between text-sm lg:text-lg">
