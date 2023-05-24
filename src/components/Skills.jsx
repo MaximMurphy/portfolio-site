@@ -1,12 +1,10 @@
-"use client";
-
 import { Icon } from "@iconify-icon/react";
 
 export default function Skills() {
   return (
     <section
       id="about"
-      className="pt-12 pb-24 lg:pb-36 px-10 lg:px-24 font-semibold tracking-wider"
+      className="pt-12 pb-12 px-10 lg:px-24 font-semibold tracking-wider"
     >
       <h1 className="text-cyan-950 text-lg flex justify-start mb-2">SKILLS</h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 justify-items-center bg-offwhite-600 rounded-xl border border-offwhite-800 text-cyan-800 text-base lg:text-2xl font-semibold tracking-wider py-8 lg:py-12 px-4 gap-10 lg:gap-12">
