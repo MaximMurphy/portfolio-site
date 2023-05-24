@@ -6,6 +6,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      serif: ["Georgia", "ui-serif"],
+    },
     extend: {
       boxShadow: {
         neue: "28px 28px 56px #121d42, -28px -28px 56px #1c2d66",

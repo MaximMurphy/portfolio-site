@@ -15,20 +15,32 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-12 p-4">
+    <nav className="hidden md:flex z-40 fixed bg-offwhite-400 flex-col h-full w-80 items-center gap-12 py-4">
       <Link href="#home" scroll={false}>
         <h1 id="rotateLogo" className="text-[10rem] text-blue-950">
           ❉
         </h1>
       </Link>
-      <div className="flex flex-col gap-16 text-blue-950 text-lg font-semibold tracking-wide scroll-smooth">
-        <Link href="#about" scroll={false}>
+      <div className="w-full flex flex-col text-start ml-52 gap-16 text-blue-950 text-lg font-semibold tracking-wide scroll-smooth">
+        <Link
+          href="#about"
+          scroll={false}
+          className="hover:font-serif hover:italic hover:text-teal-800"
+        >
           ABOUT
         </Link>
-        <Link href="#projects" scroll={false}>
+        <Link
+          href="#projects"
+          scroll={false}
+          className="hover:font-serif hover:italic hover:text-teal-800"
+        >
           PROJECTS
         </Link>
-        <Link href="#contact" scroll={false}>
+        <Link
+          href="#contact"
+          scroll={false}
+          className="hover:font-serif hover:italic hover:text-teal-800"
+        >
           CONTACT
         </Link>
       </div>
