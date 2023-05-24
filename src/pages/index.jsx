@@ -18,7 +18,9 @@ export default function Home() {
           <LegoModel />
         </div>
         */}
+        <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 my-12 lg:my-24 bg-blue-950"></div>
         <Projects />
+        <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 my-12 lg:my-24 bg-blue-950"></div>
         <Contact />
         <Footer />
       </main>

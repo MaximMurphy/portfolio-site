@@ -1,6 +1,8 @@
+import { Icon } from "@iconify-icon/react";
+
 export default function EmailLink() {
   return (
-    <p className="text-green-800 lg:text-3xl w-full flex flex-col items-center font-semibold tracking-widest gap-4">
+    <p className="text-cyan-900 hover:text-teal-600 lg:text-3xl w-full flex flex-col items-center font-semibold tracking-widest gap-4">
       <a href="mailto:maxim.murphy8@gmail.com" className="group">
         <span className="inline-block group-hover:-translate-x-2 group-hover:translate-y-4 group-hover:rotate-6 group-hover:transition group-hover:duration-700 duration-1000">
           m

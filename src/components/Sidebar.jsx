@@ -44,6 +44,10 @@ export default function Sidebar() {
           CONTACT
         </Link>
       </div>
+      <p className="px-8 text-xs text-blue-950 tracking-wide mt-8 text-justify">
+        would be cool to have this text change on hover for each section ya know
+        !!!
+      </p>
     </nav>
   );
 }

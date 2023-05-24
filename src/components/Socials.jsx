@@ -13,7 +13,7 @@ export default function Socials() {
           digital experiences.
         </p>
       </div>
-      <div className="w-full flex flex-row justify-between text-lg">
+      <div className="w-full flex flex-row justify-between text-sm lg:text-lg">
         <Link
           href="https://github.com/MaximMurphy"
           target="_blank"

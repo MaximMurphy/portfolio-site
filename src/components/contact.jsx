@@ -24,22 +24,29 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-offwhite-400 w-full flex flex-col px-12 lg:px-48 gap-12 lg:gap-24 py-24"
+      className="bg-offwhite-400 w-full flex flex-col px-8 pt-8 pb-20 gap-8"
     >
-      <h1 className="text-green-900 text-7xl lg:text-9xl font-bold text-start lg:text-end">
-        Contact
-      </h1>
-      <p className="text-green-950 text-3xl lg:text-5xl w-full flex flex-col items-start font-semibold tracking-widest gap-4">
-        If you would like to discuss a new project, please get in touch.
-      </p>
-      <EmailLink />
-
+      <div className="flex flex-col gap-12 lg:gap-24">
+        <h1 className="italic font-serif text-[3.25rem] lg:text-9xl font-bold text-end tracking-widest lg:px-20">
+          <span className="text-blue-950">C</span>
+          <span className="text-cyan-950 -ml-2 lg:-ml-4">O</span>
+          <span className="text-blue-950 -ml-3 lg:-ml-7">N</span>
+          <span className="text-cyan-950 -ml-2 lg:-ml-4">T</span>
+          <span className="text-blue-950 -ml-3 lg:-ml-8">A</span>
+          <span className="text-cyan-950 -ml-3 lg:-ml-6">C</span>
+          <span className="text-blue-950 -ml-[.60rem] lg:-ml-5">T</span>
+        </h1>
+        <p className="text-cyan-800 text-3xl lg:text-5xl w-full flex flex-col items-start font-semibold tracking-widest gap-4 lg:px-20">
+          If you would like to discuss a new project, please get in touch.
+        </p>
+        <EmailLink />
+      </div>
       <form
         id="myForm"
         onSubmit={handleSubmit}
-        className="z-40 w-full h-full bg-white/10 rounded-xl backdrop-blur-sm border-solid border border-white/20 shadow-2xl flex flex-col items-start justify-center text-cyan-800 font-semibold p-12 lg:p-16"
+        className="w-full h-full flex flex-col items-start justify-center text-cyan-800 font-semibold p-4 pt-12 lg:p-16"
       >
-        <label htmlFor="name" className="mb-4">
+        <label htmlFor="name" className="mb-4 text-cyan-900">
           {" "}
           Your Name
         </label>
@@ -49,9 +56,9 @@ export default function Contact() {
           autoComplete="family-name"
           required
           name="name"
-          className="w-full h-12 rounded-md focus:outline-none focus:ring-2 bg-offwhite-600 border-solid border-2 border-slate-500/20 ring-green-950 text-green-950 p-4 mb-12"
+          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
         />
-        <label htmlFor="email" className="mb-4">
+        <label htmlFor="email" className="mb-4 text-cyan-900">
           Email
         </label>
         <input
@@ -60,21 +67,21 @@ export default function Contact() {
           autoComplete="email"
           required
           name="email"
-          className="w-full h-12 rounded-md focus:outline-none focus:ring-2 bg-offwhite-600 border-solid border-2 border-slate-500/20 ring-green-900 text-green-950 p-4 mb-12"
+          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
         />
-        <label htmlFor="message" className="mb-4">
+        <label htmlFor="message" className="mb-4 text-cyan-900">
           Message
         </label>
         <textarea
           id="message"
           type="text"
           rows="6"
-          className="w-full h-36 flex items-start rounded-md focus:outline-none focus:ring-2 bg-offwhite-600 border-solid border-2 border-slate-500/20 ring-green-800 text-green-950 p-4 mb-12"
+          className="w-full h-12 max-h-48 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
           name="message"
         />
         <button
           type="submit"
-          className="text-offwhite-400 bg-cyan-800 hover:bg-cyan-700 rounded-md w-fit h-fit p-4"
+          className="text-offwhite-400 bg-cyan-900 hover:bg-cyan-800 rounded-md w-fit h-fit p-4"
         >
           Submit
         </button>
