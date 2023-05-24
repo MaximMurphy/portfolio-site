@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Socials() {
   return (
@@ -19,7 +20,7 @@ export default function Socials() {
           rel="noopener noreferrer"
           className="text-cyan-950 hover:text-cyan-800"
         >
-          Github
+          GitHub
         </Link>
         <Link
           href="https://www.linkedin.com/in/maxim-murphy8/"
@@ -27,7 +28,7 @@ export default function Socials() {
           rel="noopener noreferrer"
           className="text-cyan-950 hover:text-cyan-800"
         >
-          Linkedin
+          LinkedIn
         </Link>
 
         <Link

@@ -41,17 +41,17 @@ export default function Wavform() {
           </div>
         </div>
       </div>
-      <div className="w-fit h-fit bg-white/20 p-2 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex items-center justify-center order-1 lg:order-2 animate-shiftUp1 lg:animate-shiftSide2">
+      <div className="w-fit h-fit order-1 lg:order-2">
         <Link
           href="https://wavform.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
-            src="/projectImages/Wavform/cover.png"
+            src="/projectImages/Wavform/wavform.gif"
             alt="Wavform"
-            width={1500}
-            height={740}
+            width={800}
+            height={385}
             quality={100}
             priority
             className="w-full h-full rounded-lg lg:rounded-xl"
