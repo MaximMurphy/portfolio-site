@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <section
@@ -5,7 +7,28 @@ export default function Home() {
       className="mb-8 lg:mb-0 h-full w-full flex flex-col lg:flex-row items-center justify-center p-12"
     >
       <div className="flex flex-col items-center font-semibold tracking-widest gap-8 p-4">
-        <h1 className="text-7xl text-blue-950 lg:hidden animate-spinslow">❉</h1>
+        <h1 className="-mt-8 text-7xl text-blue-950 lg:hidden animate-spinslow">
+          ❉
+        </h1>
+        <nav className="lg:hidden flex flex-row gap-8 text-sm">
+          <Link href="#about" scroll={false} className="hover:text-cyan-600">
+            ABOUT
+          </Link>
+          <Link
+            href="#projects"
+            scroll={false}
+            className="text-blue-950 hover:text-orange-600"
+          >
+            PROJECTS
+          </Link>
+          <Link
+            href="#contact"
+            scroll={false}
+            className="text-blue-950 hover:text-green-600"
+          >
+            CONTACT
+          </Link>
+        </nav>
         <div className="w-full h-[0.1rem] bg-blue-950 lg:hidden"></div>
         <div>
           <h1 className="text-7xl lg:text-[10rem] italic font-serif">

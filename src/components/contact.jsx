@@ -46,7 +46,7 @@ export default function Contact() {
         onSubmit={handleSubmit}
         className="w-full h-full flex flex-col items-start justify-center text-cyan-800 font-semibold p-4 pt-12 lg:p-16"
       >
-        <label htmlFor="name" className="mb-4 text-cyan-900">
+        <label htmlFor="name" className="mb-4 text-blue-950">
           {" "}
           Your Name
         </label>
@@ -56,9 +56,9 @@ export default function Contact() {
           autoComplete="family-name"
           required
           name="name"
-          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
+          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-2 mb-12"
         />
-        <label htmlFor="email" className="mb-4 text-cyan-900">
+        <label htmlFor="email" className="mb-4 text-blue-950">
           Email
         </label>
         <input
@@ -67,21 +67,21 @@ export default function Contact() {
           autoComplete="email"
           required
           name="email"
-          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
+          className="w-full h-12 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-2 mb-12"
         />
-        <label htmlFor="message" className="mb-4 text-cyan-900">
+        <label htmlFor="message" className="mb-4 text-blue-950">
           Message
         </label>
         <textarea
           id="message"
           type="text"
           rows="6"
-          className="w-full h-12 max-h-48 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-4 mb-12"
+          className="w-full h-12 max-h-48 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-2 mb-12"
           name="message"
         />
         <button
           type="submit"
-          className="text-offwhite-400 bg-cyan-900 hover:bg-cyan-800 rounded-md w-fit h-fit p-4"
+          className="text-offwhite-400 bg-blue-950 hover:bg-cyan-900 rounded-md w-fit h-fit text-sm p-4"
         >
           Submit
         </button>
