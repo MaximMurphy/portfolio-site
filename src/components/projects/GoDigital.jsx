@@ -14,7 +14,7 @@ export default function GoDigital() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/projectImages/GoDigital/godigital.gif"
+            src="/projectImages/godigital.gif"
             alt="GoDigital"
             width={800}
             height={385}
@@ -26,8 +26,8 @@ export default function GoDigital() {
       </div>
       <div className="flex flex-col items-start gap-2 peer-hover:text-orange-600">
         <Image
-          src="/projectImages/GoDigital/godigitalfavicon.png"
-          alt="GoDigital"
+          src="/projectImages/GoDigital.png"
+          alt="logo"
           width={192}
           height={192}
           quality={100}

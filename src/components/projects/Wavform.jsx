@@ -14,7 +14,7 @@ export default function Wavform() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/projectImages/Wavform/wavform.gif"
+            src="/projectImages/wavform.gif"
             alt="Wavform"
             width={800}
             height={385}
@@ -26,7 +26,7 @@ export default function Wavform() {
       </div>
       <div className="flex flex-col items-start gap-2 peer-hover:text-cyan-600">
         <Image
-          src="/projectImages/Wavform/wavformfavicon.png"
+          src="/projectImages/soundpack-storefront.png"
           alt="Wavform"
           width={192}
           height={192}

@@ -3,9 +3,7 @@ import { Icon } from "@iconify-icon/react";
 export default function Skills() {
   return (
     <section id="about" className="pt-12 pb-12 px-10 lg:px-24 tracking-wider">
-      <h1 className="text-cyan-950 text-lg flex justify-start mb-2 font-semibold underline">
-        SKILLS
-      </h1>
+      <h1 className="text-cyan-950 text-lg font-semibold underline">SKILLS</h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 text-center justify-items-center text-offwhite-400 text-base lg:text-xl tracking-wider py-8 lg:py-10 px-4 lg:px-2 gap-10 lg:gap-12">
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
           <p>React.js</p>

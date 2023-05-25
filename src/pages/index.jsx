@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
+import Repos from "@/components/Repos";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         */}
         <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 my-12 lg:my-24 bg-blue-950"></div>
         <Projects />
+        <Repos />
         <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 my-12 lg:my-24 bg-blue-950"></div>
         <Contact />
         <Footer />

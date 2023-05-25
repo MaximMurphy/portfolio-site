@@ -14,7 +14,7 @@ export default function ReviewYourFood() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/projectImages/ReviewYourFood/reviewyourfood.gif"
+            src="/projectImages/reviewyourfood.gif"
             alt="Review Your Food"
             width={800}
             height={385}
@@ -26,8 +26,8 @@ export default function ReviewYourFood() {
       </div>
       <div className="flex flex-col items-start gap-2 peer-hover:text-green-700">
         <Image
-          src="/projectImages/ReviewYourFood/reviewyourfoodfavicon.png"
-          alt="Review Your Food"
+          src="/projectImages/recipe-app.png"
+          alt="logo"
           width={192}
           height={192}
           quality={100}
