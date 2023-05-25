@@ -5,8 +5,8 @@ import { Icon } from "@iconify-icon/react";
 
 export default function Wavform() {
   return (
-    <div className="h-[34rem] w-[320px] lg:w-96 flex flex-col items-start bg-offwhite-600 border border-offwhite-800 text-cyan-800 rounded-xl p-8 gap-8">
-      <h1 className="text-2xl text-blue-950">WAVFORM</h1>
+    <div className="h-[36rem] w-[320px] lg:w-96 flex flex-col items-start bg-offwhite-600 border-2 border-offwhite-800 text-cyan-950 rounded-xl p-8 gap-8">
+      <h1 className="text-2xl font-semibold">WAVFORM</h1>
       <div className="w-fit h-fit peer">
         <Link
           href="https://wavform.vercel.app/"
@@ -34,12 +34,12 @@ export default function Wavform() {
           priority
           className="w-8 h-8"
         />
-        <p className="text-justify">
+        <p className="text-justify text-lg">
           An e-commerce site with a focus of selling Sound Packs and Synth
           Presets to be used in electronic music production. Built with Next.js
-          13.4, Typescript and Tailwind.
+          13.4, Typescript & Tailwind.
         </p>
-        <div className="flex flex-row gap-2 mt-2 text-blue-950">
+        <div className="flex flex-row gap-2 mt-2 text-cyan-950 font-bold">
           <Link
             href="https://github.com/MaximMurphy/soundpack-storefront"
             target="_blank"

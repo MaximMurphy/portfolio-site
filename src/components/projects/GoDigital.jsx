@@ -5,8 +5,8 @@ import { Icon } from "@iconify-icon/react";
 
 export default function GoDigital() {
   return (
-    <div className="h-[34rem] w-[320px] lg:w-96 flex flex-col items-start bg-offwhite-600 border border-offwhite-800 text-cyan-800 rounded-xl p-8 gap-8">
-      <h1 className="text-2xl text-blue-950">GoDigital</h1>
+    <div className="h-[36rem] w-[320px] lg:w-96 flex flex-col items-start bg-offwhite-600 border-2 border-offwhite-800 text-cyan-950 rounded-xl p-8 gap-8">
+      <h1 className="text-2xl font-semibold">GoDigital</h1>
       <div className="w-fit h-fit peer">
         <Link
           href="https://godigitalgo.netlify.app/"
@@ -20,7 +20,7 @@ export default function GoDigital() {
             height={385}
             quality={100}
             priority
-            className="w-full h-full rounded-lg"
+            className="w-full h-full rounded-lg border border-offwhite-900"
           />
         </Link>
       </div>
@@ -34,9 +34,9 @@ export default function GoDigital() {
           priority
           className="w-8 h-8"
         />
-        <p className="text-justify">
+        <p className="text-justify text-lg">
           A website for my side electronic music project, GoDigital. Built using
-          Javascript, HTML, and CSS. Background animations created using{" "}
+          JS, HTML, & CSS. Background animations created using{" "}
           <Link
             href="https://hydra.ojack.xyz/docs/#/"
             target="_blank"
@@ -46,7 +46,7 @@ export default function GoDigital() {
             Hydra Video Synth
           </Link>
         </p>
-        <div className="flex flex-row gap-2 mt-2 text-blue-950">
+        <div className="flex flex-row gap-2 mt-2 text-cyan-950 font-bold">
           <Link
             href="https://github.com/MaximMurphy/GoDigital"
             target="_blank"

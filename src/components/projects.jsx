@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="bg-offwhite-400 w-full flex flex-col text-teal-800 font-bold tracking-wider px-8 pt-8 gap-4 lg:gap-12"
+      className="bg-offwhite-400 w-full flex flex-col text-teal-800 tracking-wider px-8 pt-8 gap-4 lg:gap-12"
     >
       <h1 className="italic font-serif text-[3.25rem] lg:text-9xl font-bold text-end tracking-widest mb-8 lg:px-20">
         <span className="text-blue-950">P</span>

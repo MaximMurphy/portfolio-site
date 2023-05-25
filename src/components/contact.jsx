@@ -1,5 +1,6 @@
 import React from "react";
 import EmailLink from "@/components/EmailLink";
+import { Icon } from "@iconify-icon/react";
 
 export default function Contact() {
   async function handleSubmit(e) {
@@ -44,7 +45,7 @@ export default function Contact() {
       <form
         id="myForm"
         onSubmit={handleSubmit}
-        className="w-full h-full flex flex-col items-start justify-center text-cyan-800 font-semibold p-4 pt-12 lg:p-16"
+        className="w-full h-full flex flex-col items-start justify-center text-blue-950 p-4 pt-12 lg:p-16"
       >
         <label htmlFor="name" className="mb-4 text-blue-950">
           {" "}
@@ -81,9 +82,12 @@ export default function Contact() {
         />
         <button
           type="submit"
-          className="text-offwhite-400 bg-blue-950 hover:bg-cyan-900 rounded-md w-fit h-fit text-sm p-4"
+          className="text-offwhite-400 bg-blue-950 hover:bg-blue-950/80 rounded-md w-fit h-fit p-4"
         >
-          Submit
+          <div className="flex flex-row gap-1 text-sm ">
+            <p>Submit</p>
+            <Icon className="mt-1" icon="mdi:arrow-right" />
+          </div>
         </button>
       </form>
     </section>
