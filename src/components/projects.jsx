@@ -18,7 +18,7 @@ export default function Projects() {
         <span className="text-blue-950 -ml-[.60rem] lg:-ml-5">T</span>
         <span className="text-cyan-950 -ml-2 lg:-ml-4">S</span>
       </h1>
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">
+      <div className="flex flex-col justify-center lg:flex-row gap-8 lg:gap-4 2xl:gap-12">
         <Wavform />
         <GoDigital />
         <ReviewYourFood />
