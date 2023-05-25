@@ -8,11 +8,11 @@ export default function Skills() {
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 text-center justify-items-center text-offwhite-400 text-base lg:text-xl tracking-wider py-8 lg:py-10 px-4 lg:px-2 gap-10 lg:gap-12">
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
-          <p>ReactJS</p>
+          <p>React.js</p>
           <Icon className="mt-1" icon="simple-icons:react" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 p-8">
-          <p>NextJS</p>
+          <p>Next.js</p>
           <Icon className="mt-1" icon="simple-icons:nextdotjs" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 lg:bg-blue-950 p-8">
@@ -36,7 +36,7 @@ export default function Skills() {
           <Icon className="mt-1" icon="simple-icons:javascript" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
-          <p>NodeJS</p>
+          <p>Node.js</p>
           <Icon className="mt-1" icon="simple-icons:nodedotjs" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
