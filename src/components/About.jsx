@@ -1,6 +1,7 @@
 import Home from "@/components/Home";
 import Skills from "@/components/Skills";
 import Socials from "@/components/Socials";
+import Repos from "./Repos";
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <Home />
       <Skills />
       <Socials />
+      <Repos />
     </section>
   );
 }
