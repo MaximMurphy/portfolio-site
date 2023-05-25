@@ -5,43 +5,9 @@ import { Icon } from "@iconify-icon/react";
 
 export default function Wavform() {
   return (
-    <section className="min-w-full flex flex-col lg:flex-row items-center justify-between lg:px-20 gap-8">
-      <div className="w-[320px] lg:w-96 bg-white/20 p-8 rounded-xl backdrop-blur border-solid border border-white/20 shadow-xl flex flex-col items-start justify-center gap-8 order-2 lg:order-1 ">
-        <h1 className="text-2xl ">WAVFORM</h1>
-        <div className="flex flex-col items-start gap-2">
-          <p>ABOUT</p>
-          <p>
-            An e-commerce site with a focus of selling Sound Packs and Synth
-            Presets to be used in electronic music production. Built with
-            Typescript and Tailwind using the new App Router and Server
-            Components in Next.js 13.4
-          </p>
-          <div className="flex flex-row gap-2 mt-2">
-            <Link
-              href="https://github.com/MaximMurphy/soundpack-storefront"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon
-                icon="simple-icons:github"
-                className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-              />
-            </Link>
-            <p>·</p>
-            <Link
-              href="https://wavform.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon
-                icon="mdi:external-link"
-                className="text-2xl hover:drop-shadow-2xl hover:scale-110"
-              />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="w-fit h-fit order-1 lg:order-2">
+    <div className="h-[34rem] w-[320px] lg:w-96 flex flex-col items-start bg-offwhite-600 border border-offwhite-800 text-cyan-800 rounded-xl p-8 gap-8">
+      <h1 className="text-2xl text-blue-950">WAVFORM</h1>
+      <div className="w-fit h-fit peer">
         <Link
           href="https://wavform.vercel.app/"
           target="_blank"
@@ -54,10 +20,49 @@ export default function Wavform() {
             height={385}
             quality={100}
             priority
-            className="w-full h-full rounded-lg lg:rounded-xl"
+            className="w-full h-full rounded-lg"
           />
         </Link>
       </div>
-    </section>
+      <div className="flex flex-col items-start gap-2 peer-hover:text-cyan-600">
+        <Image
+          src="/projectImages/Wavform/wavformfavicon.png"
+          alt="Wavform"
+          width={192}
+          height={192}
+          quality={100}
+          priority
+          className="w-8 h-8"
+        />
+        <p className="text-justify">
+          An e-commerce site with a focus of selling Sound Packs and Synth
+          Presets to be used in electronic music production. Built with Next.js
+          13.4, Typescript and Tailwind.
+        </p>
+        <div className="flex flex-row gap-2 mt-2 text-blue-950">
+          <Link
+            href="https://github.com/MaximMurphy/soundpack-storefront"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon
+              icon="simple-icons:github"
+              className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+            />
+          </Link>
+          <p>·</p>
+          <Link
+            href="https://wavform.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon
+              icon="mdi:external-link"
+              className="text-2xl hover:drop-shadow-2xl hover:scale-110"
+            />
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 }

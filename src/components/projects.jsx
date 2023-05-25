@@ -18,11 +18,11 @@ export default function Projects() {
         <span className="text-blue-950 -ml-[.60rem] lg:-ml-5">T</span>
         <span className="text-cyan-950 -ml-2 lg:-ml-4">S</span>
       </h1>
-      <Wavform />
-      <hr className="h-px my-12 w-full bg-offwhite-800 border-0 px-12" />
-      <ReviewYourFood />
-      <hr className="h-px my-12 w-full bg-offwhite-800 border-0 px-12" />
-      <GoDigital />
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-4">
+        <Wavform />
+        <GoDigital />
+        <ReviewYourFood />
+      </div>
     </div>
   );
 }
