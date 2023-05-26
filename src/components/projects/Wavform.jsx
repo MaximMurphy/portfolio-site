@@ -34,7 +34,7 @@ export default function Wavform() {
           priority
           className="w-8 h-8"
         />
-        <p className="text-justify text-lg">
+        <p className="text-justify">
           An e-commerce site with a focus of selling Sound Packs and Synth
           Presets to be used in electronic music production. Built with Next.js
           13.4, Typescript & Tailwind.

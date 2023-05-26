@@ -34,7 +34,7 @@ export default function ReviewYourFood() {
           priority
           className="w-8 h-8"
         />
-        <p className="text-justify text-lg">
+        <p className="text-justify">
           A web application for users to review food from a restaraunt and share
           with others. Developed using NextJS for frontend and Firebase for
           backend

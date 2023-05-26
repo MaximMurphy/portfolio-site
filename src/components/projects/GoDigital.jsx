@@ -34,7 +34,7 @@ export default function GoDigital() {
           priority
           className="w-8 h-8"
         />
-        <p className="text-justify text-lg">
+        <p className="text-justify">
           A website for my side electronic music project, GoDigital. Built using
           JS, HTML, & CSS. Background animations created using{" "}
           <Link
