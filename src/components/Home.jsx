@@ -7,28 +7,28 @@ export default function Home() {
       className="mb-8 lg:mb-0 h-full w-full flex flex-col lg:flex-row items-center justify-center p-12"
     >
       <div className="flex flex-col items-center font-semibold tracking-widest gap-8 p-4">
-        <h1 className="-mt-8 text-7xl text-blue-950 lg:hidden animate-spinslow">
-          ❉
-        </h1>
-        <nav className="lg:hidden flex flex-row gap-8 text-sm">
+        <nav className="z-40 w-full justify-center fixed top-0 bg-offwhite-400/60 backdrop-blur-sm lg:hidden flex flex-row gap-8 text-xs p-4 text-blue-950">
+          <Link href="#home" scroll={false} className="hover:text-teal-600">
+            HOME
+          </Link>
           <Link href="#about" scroll={false} className="hover:text-cyan-600">
             ABOUT
           </Link>
           <Link
             href="#projects"
             scroll={false}
-            className="text-blue-950 hover:text-orange-600"
+            className="hover:text-orange-600"
           >
             PROJECTS
           </Link>
-          <Link
-            href="#contact"
-            scroll={false}
-            className="text-blue-950 hover:text-green-600"
-          >
+          <Link href="#contact" scroll={false} className="hover:text-green-600">
             CONTACT
           </Link>
         </nav>
+        <h1 className="relative text-7xl text-blue-950 lg:hidden animate-spinslow">
+          ❉
+        </h1>
+
         <div className="w-full h-[0.1rem] bg-blue-950 lg:hidden"></div>
         <div>
           <h1 className="text-7xl lg:text-[10rem] italic font-serif antialiased">
