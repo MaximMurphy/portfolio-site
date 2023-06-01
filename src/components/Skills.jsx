@@ -14,40 +14,41 @@ export default function Skills() {
           <Icon className="mt-1" icon="simple-icons:nextdotjs" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 lg:bg-blue-950 p-8">
+          <p>Javascript</p>
+          <Icon className="mt-1" icon="simple-icons:javascript" />
+        </div>
+        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 lg:bg-cyan-950 p-8">
           <p>Typescript</p>
           <Icon className="mt-1" icon="simple-icons:typescript" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 lg:bg-cyan-950 p-8">
-          <p>Tailwind</p>
-          <Icon className="mt-1" icon="simple-icons:tailwindcss" />
-        </div>
-        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 lg:bg-cyan-950 p-8">
-          <p>HTML</p>
-          <Icon className="mt-1" icon="simple-icons:html5" />
+          <p>Svelte</p>
+          <Icon className="mt-1" icon="simple-icons:svelte" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 lg:bg-blue-950 p-8">
-          <p>CSS</p>
-          <Icon className="mt-1" icon="simple-icons:css3" />
-        </div>
-        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 p-8">
-          <p>Javascript</p>
-          <Icon className="mt-1" icon="simple-icons:javascript" />
-        </div>
-        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
           <p>Node.js</p>
           <Icon className="mt-1" icon="simple-icons:nodedotjs" />
         </div>
+        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 p-8">
+          <p>Tailwind</p>
+          <Icon className="mt-1" icon="simple-icons:tailwindcss" />
+        </div>
+
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
           <p>Java</p>
           <Icon className="mt-1" icon="mdi:language-java" />
         </div>
-        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 p-8">
+        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
           <p>Firebase</p>
           <Icon className="mt-1" icon="simple-icons:firebase" />
         </div>
-        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 lg:bg-blue-950 p-8">
+        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 p-8">
           <p>Git</p>
           <Icon className="mt-1" icon="simple-icons:git" />
+        </div>
+        <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-cyan-950 lg:bg-blue-950 p-8">
+          <p>Playwright</p>
+          <Icon className="mt-1" icon="simple-icons:playwright" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 lg:bg-cyan-950 p-8">
           <p>Jest</p>
