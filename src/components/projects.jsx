@@ -65,11 +65,11 @@ const ProjectCard = ({ project }) => {
             height={385}
             quality={100}
             priority
-            className="w-full h-full rounded-lg border border-offwhite-900"
+            className="w-full h-fit rounded-lg border border-offwhite-900"
           />
         </Link>
       </div>
-      <div className="flex flex-col items-start gap-2 peer-hover:text-cyan-600">
+      <div className="flex flex-col items-start gap-2 peer-hover:text-cyan-700">
         <Image
           src={project.logo}
           alt="logo"
