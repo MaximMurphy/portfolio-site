@@ -33,7 +33,6 @@ export default function Skills() {
           <p>Tailwind</p>
           <Icon className="mt-1" icon="simple-icons:tailwindcss" />
         </div>
-
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 p-8">
           <p>Java</p>
           <Icon className="mt-1" icon="mdi:language-java" />
@@ -51,8 +50,8 @@ export default function Skills() {
           <Icon className="mt-1" icon="simple-icons:playwright" />
         </div>
         <div className="flex flex-row gap-1 lg:gap-2 w-36 lg:w-48 justify-center bg-blue-950 lg:bg-cyan-950 p-8">
-          <p>Jest</p>
-          <Icon className="mt-1" icon="simple-icons:jest" />
+          <p>ReactQuery</p>
+          <Icon className="mt-1" icon="simple-icons:reactquery" />
         </div>
       </div>
     </section>
