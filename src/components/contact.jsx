@@ -75,19 +75,16 @@ export default function Contact() {
         </label>
         <textarea
           id="message"
-          type="text"
           rows="6"
           className="w-full h-12 max-h-48 bg-offwhite-400 focus:outline-none border-b-2 border-offwhite-800 rounded-none p-2 mb-12"
           name="message"
         />
         <button
           type="submit"
-          className="text-offwhite-400 bg-blue-950 hover:bg-blue-950/80 rounded-md w-fit h-fit p-4"
+          className="flex flex-row gap-1 text-sm text-offwhite-400 bg-blue-950 hover:bg-offwhite-400 hover:text-blue-950 rounded-md border-2 border-blue-950 w-fit h-fit p-4"
         >
-          <div className="flex flex-row gap-1 text-sm ">
-            <p>Submit</p>
-            <Icon className="mt-1" icon="mdi:arrow-right" />
-          </div>
+          <p>Submit</p>
+          <Icon className="mt-1" icon="mdi:arrow-right" />
         </button>
       </form>
     </section>

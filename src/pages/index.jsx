@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Maxim Murphy</title>
       </Head>
-      <main className="min-h-screen lg:ml-80 overflow-hidden">
+      <div className="min-h-screen lg:ml-80 overflow-hidden">
         <About />
         {/* 
         <div className="w-full flex items-center justify-center">
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="w-full lg:-ml-24 h-[0.1rem] lg:h-1 my-12 lg:my-24 bg-blue-950"></div>
         <Contact />
         <Footer />
-      </main>
+      </div>
     </>
   );
 }
